@@ -1,2 +1,4 @@
 # LLLE-R1900s
-todo
+Loans, Livelihoods, and Local economies - Russia, 1900s
+
+Кредиты, занятость и сельская экономика - Россия, начало XX века
