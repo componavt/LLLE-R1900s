@@ -4,7 +4,7 @@ from typing import Tuple, Optional, Dict
 import re
 import sys
 import pandas as pd
-from rapidfuzz import fuzz, process
+from rapidfuzz import fuzz, process, distance
 from dotenv import load_dotenv
 
 # Load shared config first
@@ -17,7 +17,7 @@ load_dotenv(".env", override=True)
 CSV_IN_DIR = os.getenv("CSV_IN_DIR", "data/csv_in")
 PARQUET_PATH = os.getenv("PARQUET_PATH", "data/data.parquet")
 OUTPUTS_DIR = os.getenv("OUTPUTS_DIR", "outputs")
-FINAL_CSV_PATH = os.getenv("FINAL_CSV_PATH", "outputs/final_data.csv")  # NEW!
+CSV_OUT_DIR = os.getenv("CSV_OUT_DIR", "data/csv_out")
 
 # Ensure output directory exists
 Path(OUTPUTS_DIR).mkdir(parents=True, exist_ok=True)
@@ -87,7 +87,7 @@ def parse_filename(filename: str) -> Optional[Tuple[str, str, int, int]]:
     if settlement_raw in society:
         settlement_english = society[settlement_raw]
     else:
-        print(f"❌ Unknown settlement: '{settlement_raw}' — not found in society.csv")
+        print(f"❌ Unknown settlement: '{settlement_raw}' in file '{filename}' — not found in society.csv")
         sys.exit(1)
 
     if period_str is None:
@@ -171,8 +171,8 @@ def process_csv_file(csv_path: Path, year: str, settlement: str, month_start: in
             matched_items.append(None)
         else:
             # Check Levenshtein distance explicitly
-            distance = fuzz.Levenshtein.distance(raw_item, best_match)
-            if distance <= fuzzy_threshold:
+            dist = distance.Levenshtein.distance(raw_item, best_match)
+            if dist <= fuzzy_threshold:
                 matched_items.append(credit_items[best_match])
             else:
                 unmatched_items.append(raw_item)
@@ -231,15 +231,22 @@ def main():
 
     final_df = pd.concat(all_data, ignore_index=True)
 
+    # Count unique settlements and credit items
+    n_settlements = final_df["settlement"].nunique()
+    n_items = final_df["credit_item"].nunique()
+
+    # Generate output filename
+    output_filename = f"loans_s{n_settlements}_i{n_items}.csv"
+    output_path = Path(CSV_OUT_DIR) / output_filename
+
     # Reorder columns for clarity
     final_df = final_df[[
         "year", "settlement", "month_start", "month_end",
         "credit_item", "loan_count", "amount_rubles", "loan_details"
     ]]
 
-    final_df.to_csv(FINAL_CSV_PATH, index=False, encoding="utf-8")
-    print(f"✅ Saved {len(final_df)} rows to {FINAL_CSV_PATH}")
-
+    final_df.to_csv(output_path, index=False, encoding="utf-8")
+    print(f"✅ Saved {len(final_df)} rows to {output_path}")
 
 if __name__ == "__main__":
     main()
