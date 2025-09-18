@@ -4,7 +4,7 @@ Loans, Livelihoods, and Local economies - Russia, 1900s
 Кредиты, занятость и сельская экономика - Россия, начало XX века
 
 # 🚀 Setup & Run in Cursor AI 
-The book (file `Platonov/behidden/behidden.tex`) can be compiled with the following:
+The program can be run as follows:
     
     python3 -m venv .venv
     source .venv/bin/activate
