@@ -1,4 +1,5 @@
 import os
+import csv
 from pathlib import Path
 from typing import Tuple, Optional, Dict
 import re
@@ -21,6 +22,7 @@ CSV_OUT_DIR = os.getenv("CSV_OUT_DIR", "data/csv_out")
 
 # Ensure output directory exists
 Path(OUTPUTS_DIR).mkdir(parents=True, exist_ok=True)
+Path(CSV_OUT_DIR).mkdir(parents=True, exist_ok=True)
 
 
 def load_mapping(csv_path: str, key_columns: list, value_column: str, name: str) -> Dict[str, str]:
@@ -245,8 +247,31 @@ def main():
         "credit_item", "loan_count", "amount_rubles", "loan_details"
     ]]
 
-    final_df.to_csv(output_path, index=False, encoding="utf-8")
+    # Format loan_count as integer (no decimals)
+    final_df["loan_count"] = final_df["loan_count"].astype(int)
+
+    # Format amount_rubles: show decimals only if not integer
+    def format_amount(x):
+        if pd.isna(x):
+            return ""
+        if float(x).is_integer():
+            return str(int(x))
+        else:
+            # Format with minimal decimals (e.g., 10.5, not 10.5000)
+            return f"{x:.2f}".rstrip('0').rstrip('.')
+
+    final_df["amount_rubles"] = final_df["amount_rubles"].apply(format_amount)
+
+    final_df.to_csv(
+        output_path,
+        index=False,
+        encoding="utf-8",
+        quoting=csv.QUOTE_MINIMAL,
+        quotechar='"',
+        doublequote=True
+    )
     print(f"✅ Saved {len(final_df)} rows to {output_path}")
+    print(f"📊 Dataset summary: {n_settlements} settlements, {n_items} credit item types")
 
 if __name__ == "__main__":
     main()
