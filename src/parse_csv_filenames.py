@@ -50,7 +50,7 @@ def load_mapping(csv_path: str, key_columns: list, value_column: str, name: str)
 
 
 # Load mappings
-society = load_mapping("data/society.csv", ["Russian", "Synonym"], "English", "Society mapping")
+society = load_mapping("data/society_settlement.csv", ["Russian", "Synonym"], "English", "Society mapping")
 credit_items = load_mapping("data/credit_items.csv", ["Russian"], "Name", "Credit items mapping")
 
 
