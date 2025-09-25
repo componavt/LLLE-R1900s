@@ -51,7 +51,7 @@ def load_mapping(csv_path: str, key_columns: list, value_column: str, name: str)
 
 # Load mappings
 society = load_mapping("data/society_settlement.csv", ["Russian", "Synonym"], "English", "Society mapping")
-credit_items = load_mapping("data/credit_items.csv", ["Russian"], "Name", "Credit items mapping")
+credit_items = load_mapping("data/credit_items.csv", ["loan_ru"], "Name", "Credit items mapping")
 
 
 def parse_filename(filename: str) -> Optional[Tuple[str, str, int, int]]:
@@ -232,6 +232,12 @@ def main():
         return
 
     final_df = pd.concat(all_data, ignore_index=True)
+
+    # sort by year and settlement
+    final_df = final_df.sort_values( 
+        by=["year", "settlement"],
+        ascending=[True, True]
+    ).reset_index(drop=True)
 
     # Count unique settlements and credit items
     n_settlements = final_df["settlement"].nunique()

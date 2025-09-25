@@ -5,6 +5,17 @@ year,settlement,month_start,month_end,credit_item,loan_count,amount_rubles,loan_
 1916,Ivinskoye,4,6,Rent,1,50,
 1916,Ivinskoye,4,6,Migration,1,35,
 1916,Ivinskoye,4,6,PersonalExpenses,1,30,
+1916,Ivinskoye,10,12,FarmBuildings,1,25,
+1916,Ivinskoye,10,12,LandImprovement,6,735,
+1916,Ivinskoye,10,12,Livestock,8,570,покупка лошадей
+1916,Ivinskoye,10,12,PersonalExpenses,3,105,
+1916,Ivinskoye,7,8,Housing,5,285,
+1916,Ivinskoye,7,8,LandImprovement,4,700,
+1916,Ivinskoye,7,8,Livestock,4,405,
+1916,Ivinskoye,7,8,CraftMaterials,1,30,
+1916,Ivinskoye,7,8,LaborFuel,1,20,
+1916,Ivinskoye,7,8,Migration,6,350,
+1916,Ivinskoye,7,8,PersonalExpenses,2,130,
 1916,Ivinskoye,1,3,FarmBuildings,2,25,
 1916,Ivinskoye,1,3,Housing,1,50,
 1916,Ivinskoye,1,3,LandImprovement,7,460,
@@ -13,62 +24,12 @@ year,settlement,month_start,month_end,credit_item,loan_count,amount_rubles,loan_
 1916,Ivinskoye,1,3,AnimalFeed,5,240,
 1916,Ivinskoye,1,3,Migration,1,30,
 1916,Ivinskoye,1,3,PersonalExpenses,9,246,на покупку муки на хлеб
-1916,Ivinskoye,7,8,Housing,5,285,
-1916,Ivinskoye,7,8,LandImprovement,4,700,
-1916,Ivinskoye,7,8,Livestock,4,405,
-1916,Ivinskoye,7,8,CraftMaterials,1,30,
-1916,Ivinskoye,7,8,LaborFuel,1,20,
-1916,Ivinskoye,7,8,Migration,6,350,
-1916,Ivinskoye,7,8,PersonalExpenses,2,130,
-1916,Ivinskoye,10,12,FarmBuildings,1,25,
-1916,Ivinskoye,10,12,LandImprovement,6,735,
-1916,Ivinskoye,10,12,Livestock,8,570,покупка лошадей
-1916,Ivinskoye,10,12,PersonalExpenses,3,105,
-1916,Kuzaranda,2,2,FarmBuildings,4,213,все на постройку сарая
-1916,Kuzaranda,2,2,Housing,6,300,все - на постройку домов
-1916,Kuzaranda,2,2,Livestock,19,802,3 с. на 200 руб. - на покупку лошади; 16 с. на 602 р. - на покупку коров
-1916,Kuzaranda,2,2,Seeds,1,25,
-1916,Kuzaranda,2,2,CraftMaterials,7,90,все на покупку кожи
-1916,Kuzaranda,2,2,GoodsForSale,1,200,на покупку рыбы
-1916,Kuzaranda,2,2,AnimalFeed,31,459,все на покупку сена
-1916,Kuzaranda,2,2,PersonalExpenses,46,622,4 с. на 26 руб. - на дрова; 42 с. по 596 руб. - выд. На хлеб
-1916,Kuzaranda,8,8,FarmBuildings,1,20,на постройку сарая
-1916,Kuzaranda,8,8,Seeds,4,76,на семяна
-1916,Kuzaranda,8,8,LaborFuel,16,362,2 с. на 60 руб. - на пашню; 13 на 292 р. - на жнитву; 1 с. на 10 руб. - на сенокос
-1916,Kuzaranda,8,8,Migration,2,16,
-1916,Kuzaranda,8,8,PersonalExpenses,6,136,1 с. на 10 руб. - на обувь; 5 с. на 126 руб. - на хлеб
-1916,Kuzaranda,10,10,FarmBuildings,4,190,2 с. на 105 руб. - на постройку хлева; 1 с. на 50 руб. - на постройку сарая; 1 с. на 35 руб. - на построцку кузницы
-1916,Kuzaranda,10,10,Housing,1,5,постройка дома
-1916,Kuzaranda,10,10,Livestock,2,120,1 с. на 100 руб. - на коров.; 1 с. на 20 руб. - покупка лошад.
-1916,Kuzaranda,10,10,CraftMaterials,2,40,на покупку кожи
-1916,Kuzaranda,10,10,AnimalFeed,1,16,на покупку корма
-1916,Kuzaranda,10,10,Migration,1,25,на дорогу
-1916,Kuzaranda,10,10,DebtRepayment,1,10,на уплату долга
-1916,Kuzaranda,10,10,PersonalExpenses,13,215,10 с. на 173 р. на обувь; 3 с. на 42 р. - на хлеб.
-1916,Kuzaranda,12,12,AnimalFeed,9,242,6 с. - на 147 руб. - на сено; 3 с. на 95 руб. - на овес
-1916,Kuzaranda,12,12,Migration,1,20,на дорогу в Кемь
-1916,Kuzaranda,12,12,DebtRepayment,1,11,
-1916,Kuzaranda,12,12,PersonalExpenses,4,75,1 с. на 15 р. - на свадьбу; 1 с. на 10 р. - на страхование дома; 1 с. на 40 руб. - на обувь; 1 с. на 10 руб. - на хлеб.
-1916,Kuzaranda,7,7,FarmBuildings,1,25,на постройку сарая
-1916,Kuzaranda,7,7,Housing,1,20,на постройку дома
-1916,Kuzaranda,7,7,LandImprovement,1,10,на разработку полосы
-1916,Kuzaranda,7,7,Seeds,13,303,все на семяна
-1916,Kuzaranda,7,7,CraftMaterials,1,20,на кожу
-1916,Kuzaranda,7,7,LaborFuel,25,615,14 с. на 330 руб. - на сенокос; 9 с. на 260 руб. - на жнитву; 2 с. на 25 руб. - на пашню
-1916,Kuzaranda,7,7,PersonalExpenses,10,461,8 с. на 426 руб. - на муку; 1 с. на 5 руб. - на обувь; 1 с. на 30 руб. - на воспитание детей
-1916,Kuzaranda,4,4,FarmBuildings,1,30,на постройку сарая
-1916,Kuzaranda,4,4,LandImprovement,1,70,на разработку пожни
-1916,Kuzaranda,4,4,Seeds,10,155,все на покупку семян
-1916,Kuzaranda,4,4,CraftMaterials,1,15,на невод
-1916,Kuzaranda,4,4,LaborFuel,4,60,все на пашню
-1916,Kuzaranda,4,4,GoodsForSale,1,300, на кожу
-1916,Kuzaranda,4,4,AnimalFeed,1,35,на сено
-1916,Kuzaranda,4,4,DebtRepayment,2,35,в уплату долга
-1916,Kuzaranda,4,4,PersonalExpenses,5,150,1 с. на 40 руб. - на воспитание детей; 4 с. на 100 руб. - на муку
-1916,Kuzaranda,1,1,FarmBuildings,1,10,на ремонт ригачи
-1916,Kuzaranda,1,1,Livestock,7,185,все на покупку коровы
-1916,Kuzaranda,1,1,AnimalFeed,5,48,все на покупку сена
-1916,Kuzaranda,1,1,PersonalExpenses,3,34,1 с. на 3 руб. - на дрова; 2 с. на 31 руб - на свадьбу
+1916,Kuzaranda,3,3,FarmBuildings,1,50,на постройку дома
+1916,Kuzaranda,3,3,CraftTools,1,100,на покупку коровы
+1916,Kuzaranda,3,3,Seeds,1,10,
+1916,Kuzaranda,3,3,AnimalFeed,11,194,все на покупку сена
+1916,Kuzaranda,3,3,Migration,1,5,на дорогу в солдаты
+1916,Kuzaranda,3,3,PersonalExpenses,15,264,1 на 30 руб. - на воспитание детей; 1 с. на 10 руб. - на обувь; 13 с. на 224 р. - на хлеб.
 1916,Kuzaranda,6,6,Housing,1,20,на работу печи
 1916,Kuzaranda,6,6,FarmTools,4,37,на покупку косы
 1916,Kuzaranda,6,6,Livestock,1,50,на покупку лошади
@@ -84,6 +45,54 @@ year,settlement,month_start,month_end,credit_item,loan_count,amount_rubles,loan_
 1916,Kuzaranda,5,5,Migration,2,10,на дорогу на заработки
 1916,Kuzaranda,5,5,DebtRepayment,3,65,на уплату частных долгов
 1916,Kuzaranda,5,5,PersonalExpenses,8,156,1 с. на 30 руб. - на лодку; 2 с. на 34 руб. - на обувь; 1 с. на 20 руб. - на отправку сына в солдаты; 4 с. на 42 руб. - на муку
+1916,Kuzaranda,10,10,FarmBuildings,4,190,2 с. на 105 руб. - на постройку хлева; 1 с. на 50 руб. - на постройку сарая; 1 с. на 35 руб. - на построцку кузницы
+1916,Kuzaranda,10,10,Housing,1,5,постройка дома
+1916,Kuzaranda,10,10,Livestock,2,120,1 с. на 100 руб. - на коров.; 1 с. на 20 руб. - покупка лошад.
+1916,Kuzaranda,10,10,CraftMaterials,2,40,на покупку кожи
+1916,Kuzaranda,10,10,AnimalFeed,1,16,на покупку корма
+1916,Kuzaranda,10,10,Migration,1,25,на дорогу
+1916,Kuzaranda,10,10,DebtRepayment,1,10,на уплату долга
+1916,Kuzaranda,10,10,PersonalExpenses,13,215,10 с. на 173 р. на обувь; 3 с. на 42 р. - на хлеб.
+1916,Kuzaranda,1,1,FarmBuildings,1,10,на ремонт ригачи
+1916,Kuzaranda,1,1,Livestock,7,185,все на покупку коровы
+1916,Kuzaranda,1,1,AnimalFeed,5,48,все на покупку сена
+1916,Kuzaranda,1,1,PersonalExpenses,3,34,1 с. на 3 руб. - на дрова; 2 с. на 31 руб - на свадьбу
+1916,Kuzaranda,4,4,FarmBuildings,1,30,на постройку сарая
+1916,Kuzaranda,4,4,LandImprovement,1,70,на разработку пожни
+1916,Kuzaranda,4,4,Seeds,10,155,все на покупку семян
+1916,Kuzaranda,4,4,CraftMaterials,1,15,на невод
+1916,Kuzaranda,4,4,LaborFuel,4,60,все на пашню
+1916,Kuzaranda,4,4,GoodsForSale,1,300, на кожу
+1916,Kuzaranda,4,4,AnimalFeed,1,35,на сено
+1916,Kuzaranda,4,4,DebtRepayment,2,35,в уплату долга
+1916,Kuzaranda,4,4,PersonalExpenses,5,150,1 с. на 40 руб. - на воспитание детей; 4 с. на 100 руб. - на муку
+1916,Kuzaranda,7,7,FarmBuildings,1,25,на постройку сарая
+1916,Kuzaranda,7,7,Housing,1,20,на постройку дома
+1916,Kuzaranda,7,7,LandImprovement,1,10,на разработку полосы
+1916,Kuzaranda,7,7,Seeds,13,303,все на семяна
+1916,Kuzaranda,7,7,CraftMaterials,1,20,на кожу
+1916,Kuzaranda,7,7,LaborFuel,25,615,14 с. на 330 руб. - на сенокос; 9 с. на 260 руб. - на жнитву; 2 с. на 25 руб. - на пашню
+1916,Kuzaranda,7,7,PersonalExpenses,10,461,8 с. на 426 руб. - на муку; 1 с. на 5 руб. - на обувь; 1 с. на 30 руб. - на воспитание детей
+1916,Kuzaranda,11,11,Livestock,1,30,на покупку лошади
+1916,Kuzaranda,11,11,AnimalFeed,5,77,все на покупку сена
+1916,Kuzaranda,11,11,DebtRepayment,2,45,
+1916,Kuzaranda,2,2,FarmBuildings,4,213,все на постройку сарая
+1916,Kuzaranda,2,2,Housing,6,300,все - на постройку домов
+1916,Kuzaranda,2,2,Livestock,19,802,3 с. на 200 руб. - на покупку лошади; 16 с. на 602 р. - на покупку коров
+1916,Kuzaranda,2,2,Seeds,1,25,
+1916,Kuzaranda,2,2,CraftMaterials,7,90,все на покупку кожи
+1916,Kuzaranda,2,2,GoodsForSale,1,200,на покупку рыбы
+1916,Kuzaranda,2,2,AnimalFeed,31,459,все на покупку сена
+1916,Kuzaranda,2,2,PersonalExpenses,46,622,4 с. на 26 руб. - на дрова; 42 с. по 596 руб. - выд. На хлеб
+1916,Kuzaranda,12,12,AnimalFeed,9,242,6 с. - на 147 руб. - на сено; 3 с. на 95 руб. - на овес
+1916,Kuzaranda,12,12,Migration,1,20,на дорогу в Кемь
+1916,Kuzaranda,12,12,DebtRepayment,1,11,
+1916,Kuzaranda,12,12,PersonalExpenses,4,75,1 с. на 15 р. - на свадьбу; 1 с. на 10 р. - на страхование дома; 1 с. на 40 руб. - на обувь; 1 с. на 10 руб. - на хлеб.
+1916,Kuzaranda,8,8,FarmBuildings,1,20,на постройку сарая
+1916,Kuzaranda,8,8,Seeds,4,76,на семяна
+1916,Kuzaranda,8,8,LaborFuel,16,362,2 с. на 60 руб. - на пашню; 13 на 292 р. - на жнитву; 1 с. на 10 руб. - на сенокос
+1916,Kuzaranda,8,8,Migration,2,16,
+1916,Kuzaranda,8,8,PersonalExpenses,6,136,1 с. на 10 руб. - на обувь; 5 с. на 126 руб. - на хлеб
 1916,Kuzaranda,9,9,FarmBuildings,3,110,1 с. на 40 р. - постройка риги; 1 с. на 20 р. - постройка сарая; 1 с. на 50 р. - постройка хлева
 1916,Kuzaranda,9,9,Housing,2,65,на постройку домов
 1916,Kuzaranda,9,9,CraftMaterials,1,10,на покупку кожи
@@ -91,15 +100,42 @@ year,settlement,month_start,month_end,credit_item,loan_count,amount_rubles,loan_
 1916,Kuzaranda,9,9,GoodsForSale,2,300,на покупку товара для продажи
 1916,Kuzaranda,9,9,DebtRepayment,2,35,уплата частных долгов
 1916,Kuzaranda,9,9,PersonalExpenses,10,180,8 с. по 150 р. - на обувь; 1 с. на 20 руб. - воспитание детей; 1 с. на 10 руб. - на хлеб
-1916,Kuzaranda,11,11,Livestock,1,30,на покупку лошади
-1916,Kuzaranda,11,11,AnimalFeed,5,77,все на покупку сена
-1916,Kuzaranda,11,11,DebtRepayment,2,45,
-1916,Kuzaranda,3,3,FarmBuildings,1,50,на постройку дома
-1916,Kuzaranda,3,3,CraftTools,1,100,на покупку коровы
-1916,Kuzaranda,3,3,Seeds,1,10,
-1916,Kuzaranda,3,3,AnimalFeed,11,194,все на покупку сена
-1916,Kuzaranda,3,3,Migration,1,5,на дорогу в солдаты
-1916,Kuzaranda,3,3,PersonalExpenses,15,264,1 на 30 руб. - на воспитание детей; 1 с. на 10 руб. - на обувь; 13 с. на 224 р. - на хлеб.
+1916,Vedlozero,7,7,Seeds,4,125,
+1916,Vedlozero,7,7,CraftMaterials,2,115,рыбооловных сетей
+1916,Vedlozero,9,9,Housing,5,195,
+1916,Vedlozero,9,9,Livestock,2,70,
+1916,Vedlozero,9,9,AnimalFeed,1,35,
+1916,Vedlozero,9,9,DebtRepayment,1,20,
+1916,Vedlozero,4,4,Housing,3,170,
+1916,Vedlozero,4,4,Livestock,3,110,
+1916,Vedlozero,4,4,Seeds,13,340,
+1916,Vedlozero,4,4,AnimalFeed,1,10,
+1916,Vedlozero,4,4,PersonalExpenses,1,20,
+1916,Vedlozero,6,6,Housing,5,210,
+1916,Vedlozero,11,11,Housing,15,711,
+1916,Vedlozero,11,11,Livestock,7,380,
+1916,Vedlozero,11,11,GoodsForSale,1,50,
+1916,Vedlozero,11,11,PersonalExpenses,6,145,
+1916,Vedlozero,10,10,Housing,11,380,
+1916,Vedlozero,10,10,Livestock,5,175,
+1916,Vedlozero,10,10,PersonalExpenses,1,15,
+1916,Vedlozero,2,2,Housing,5,250,
+1916,Vedlozero,2,2,Livestock,4,145,
+1916,Vedlozero,2,2,Seeds,27,713,
+1916,Vedlozero,2,2,AnimalFeed,2,100,
+1916,Vedlozero,2,2,PersonalExpenses,1,12,
+1916,Vedlozero,12,12,Housing,3,95,
+1916,Vedlozero,12,12,Livestock,2,60,
+1916,Vedlozero,12,12,AnimalFeed,1,40,
+1916,Vedlozero,12,12,PersonalExpenses,1,25,
+1916,Vedlozero,1,1,Housing,9,290,
+1916,Vedlozero,1,1,Livestock,3,80,
+1916,Vedlozero,1,1,Seeds,14,330,
+1916,Vedlozero,1,1,AnimalFeed,1,20,
+1916,Vedlozero,1,1,DebtRepayment,1,18,
+1916,Vedlozero,8,8,Housing,13,535,
+1916,Vedlozero,8,8,Livestock,5,220,
+1916,Vedlozero,8,8,PersonalExpenses,2,33,
 1917,Ladvinskoye,1,12,LandPurchase,1,200,
 1917,Ladvinskoye,1,12,FarmBuildings,3,105,
 1917,Ladvinskoye,1,12,Housing,9,780,
@@ -111,39 +147,3 @@ year,settlement,month_start,month_end,credit_item,loan_count,amount_rubles,loan_
 1917,Ladvinskoye,1,12,GoodsForSale,1,200,
 1917,Ladvinskoye,1,12,AnimalFeed,3,420,
 1917,Ladvinskoye,1,12,Migration,2,65,
-1916,Vedlozero,11,11,Housing,15,711,
-1916,Vedlozero,11,11,Livestock,7,380,
-1916,Vedlozero,11,11,GoodsForSale,1,50,
-1916,Vedlozero,11,11,PersonalExpenses,6,145,
-1916,Vedlozero,12,12,Housing,3,95,
-1916,Vedlozero,12,12,Livestock,2,60,
-1916,Vedlozero,12,12,AnimalFeed,1,40,
-1916,Vedlozero,12,12,PersonalExpenses,1,25,
-1916,Vedlozero,8,8,Housing,13,535,
-1916,Vedlozero,8,8,Livestock,5,220,
-1916,Vedlozero,8,8,PersonalExpenses,2,33,
-1916,Vedlozero,9,9,Housing,5,195,
-1916,Vedlozero,9,9,Livestock,2,70,
-1916,Vedlozero,9,9,AnimalFeed,1,35,
-1916,Vedlozero,9,9,DebtRepayment,1,20,
-1916,Vedlozero,2,2,Housing,5,250,
-1916,Vedlozero,2,2,Livestock,4,145,
-1916,Vedlozero,2,2,Seeds,27,713,
-1916,Vedlozero,2,2,AnimalFeed,2,100,
-1916,Vedlozero,2,2,PersonalExpenses,1,12,
-1916,Vedlozero,7,7,Seeds,4,125,
-1916,Vedlozero,7,7,CraftMaterials,2,115,рыбооловных сетей
-1916,Vedlozero,4,4,Housing,3,170,
-1916,Vedlozero,4,4,Livestock,3,110,
-1916,Vedlozero,4,4,Seeds,13,340,
-1916,Vedlozero,4,4,AnimalFeed,1,10,
-1916,Vedlozero,4,4,PersonalExpenses,1,20,
-1916,Vedlozero,10,10,Housing,11,380,
-1916,Vedlozero,10,10,Livestock,5,175,
-1916,Vedlozero,10,10,PersonalExpenses,1,15,
-1916,Vedlozero,1,1,Housing,9,290,
-1916,Vedlozero,1,1,Livestock,3,80,
-1916,Vedlozero,1,1,Seeds,14,330,
-1916,Vedlozero,1,1,AnimalFeed,1,20,
-1916,Vedlozero,1,1,DebtRepayment,1,18,
-1916,Vedlozero,6,6,Housing,5,210,

@@ -1,20 +1,20 @@
-Name,English,Russian
-LandPurchase,"Purchase of land in full ownership","покупка земли в полную собственность"
-FarmBuildings,"Construction, purchase, equipment and repair of agricultural and industrial facilities (mills, oil mills, forges, barns, sheds, etc.)","Постройка, покупка, оборудование и ремонт предприятий сельско-хозяйственных и промышленных (мельниц, маслобоен, кузниц, амбаров, сараев и т.п.)"
-Housing,"Construction, purchase or repair of housing","постройки для жилья, покупка их или ремонт"
-LandImprovement,"Improvement of lands (purchase of fertilizers, artificial irrigation, drainage, stump removal, etc.), construction of dams, ponds, gardens, vegetable gardens","Улучшение угодий (покупка удобрений, искусственное орошение, осушение, корчевание и т.п.) устройство плотин, прудов, садов, огородов"
-FarmTools,"Purchase and repair of tools for agriculture (machines, etc.)","покупка и почин орудиц для сельского хозяйтсва (машин и проч.)"
-CraftTools,"Purchase and repair of tools for crafts, cottage industries and other industries (blacksmith, carpentry tools, devices, etc.)","покупка и починка орудий ремесленного, кустарного и других промыслов (слесарные, столярные инструменты, приборы и проч.)"
-Livestock,"Purchase of working livestock, all kinds of domestic animals (horses, oxen, donkeys, camels, cows, sheep, etc.), poultry, bees, etc.","покупка рабочего скота, всяких домашних животных (лошади, волы, ослы, верблюды, коровы, овцы т и.п.), домашней птицы, пчел и т.п.)"
-Rent,"Rent (land and other lands, mills, industrial enterprises)","аренда (земли и други угодий, мельницы, промышленного заведения)"
-Seeds,"Purchase of seeds for sowing","покупка семян для посева"
-CraftMaterials,"Purchase of materials for crafts, cottage industries and other industries (steel, iron, copper, wood, cloth, leather, wool, paints, etc.)","покупка материалов ремесленного, кустарного и других промыслов (сталь, железо, медь, дерево, сукно, кожа, шерсть, краски и т.п.)"
-LaborFuel,"Hiring machines and labor (workers, working livestock, electric and other energy), purchase of fuel (firewood, coal, etc.)","наем машин и рабочей силы (рабочих, рабочего скота, электрической и другой энергии), покупка горючего материала (дров, уголь и т.п.)"
-GoodsForSale,"Purchase of various goods for resale","Покупка разного рода товаров для продажи"
-AnimalFeed,"Purchase of feed for livestock (oats, hay, bran, etc.)","покупка корма для скота (ове, сено, отруби и т.п.)"
-Migration,"Outfitting for migratory industries","снаряжение в отхожие промыслы"
-DebtRepayment,"Repayment of private debts","уплата частных долгов"
-LoanRefinancing,"Refinancing of issued cooperative obligations to new terms or conditions","переписка выданных товаищеских обязательств  на новые сроки или на новых условиях"
-PersonalExpenses,"Various personal expenses of the borrower and his family (food, heating, payment of duties, weddings, funerals, treatment, child rearing, clothing, furniture, books, etc.)","разные личные расходы заемщика и его семьи (продовольствие, отопление, уплата повинностей, свадьбы, похороны, лечение, воспитание детей, наряды, довольствия, мебель, книги и т.п.)"
-CropCollateral,"Loans secured by agricultural and industrial products","ссуды под залог произведений сельского хозяйства и промыслов"
-CraftCollateral,"Loans secured by craft and cottage industry products","ссуды под залог ремесленныз и кустарных произведений"
+Name,loan_ru,loan_short_ru,loan_en,loan_type,aci_status
+LandPurchase,"покупка земли в полную собственность","Покупка земли","Purchase of land in full ownership",conditionally_productive,non_aci
+FarmBuildings,"Постройка, покупка, оборудование и ремонт предприятий сельско-хозяйственных и промышленных (мельниц, маслобоен, кузниц, амбаров, сараев и т.п.)","С/х постройки","Construction, purchase, equipment and repair of agricultural and industrial facilities (mills, oil mills, forges, barns, sheds, etc.)",productive,aci
+Housing,"постройки для жилья, покупка их или ремонт","Расх. на жильё","Construction, purchase or repair of housing",non_productive,non_aci
+LandImprovement,"Улучшение угодий (покупка удобрений, искусственное орошение, осушение, корчевание и т.п.) устройство плотин, прудов, садов, огородов","Улучш-е земель","Improvement of lands (purchase of fertilizers, artificial irrigation, drainage, stump removal, etc.), construction of dams, ponds, gardens, vegetable gardens",productive,non_aci
+FarmTools,"покупка и почин орудиц для сельского хозяйтсва (машин и проч.)","Орудия труда","Purchase and repair of tools for agriculture (machines, etc.)",productive,non_aci
+CraftTools,"покупка и починка орудий ремесленного, кустарного и других промыслов (слесарные, столярные инструменты, приборы и проч.)","Ремесл. инстр.","Purchase and repair of tools for crafts, cottage industries and other industries (blacksmith, carpentry tools, devices, etc.)",productive,aci
+Livestock,"покупка рабочего скота, всяких домашних животных (лошади, волы, ослы, верблюды, коровы, овцы т и.п.), домашней птицы, пчел и т.п.)","Приобр-е скота","Purchase of working livestock, all kinds of domestic animals (horses, oxen, donkeys, camels, cows, sheep, etc.), poultry, bees, etc.",productive,conditionally_aci
+Rent,"аренда (земли и други угодий, мельницы, промышленного заведения)","Аренда имущества","Rent (land and other lands, mills, industrial enterprises)",productive,conditionally_aci
+Seeds,"покупка семян для посева","С/х семена","Purchase of seeds for sowing",productive,non_aci
+CraftMaterials,"покупка материалов ремесленного, кустарного и других промыслов (сталь, железо, медь, дерево, сукно, кожа, шерсть, краски и т.п.)","Ремесл. матер.","Purchase of materials for crafts, cottage industries and other industries (steel, iron, copper, wood, cloth, leather, wool, paints, etc.)",productive,aci
+LaborFuel,"наем машин и рабочей силы (рабочих, рабочего скота, электрической и другой энергии), покупка горючего материала (дров, уголь и т.п.)","Наём раб. силы","Hiring machines and labor (workers, working livestock, electric and other energy), purchase of fuel (firewood, coal, etc.)",productive,aci
+GoodsForSale,"Покупка разного рода товаров для продажи","Торговля","Purchase of various goods for resale",conditionally_productive,conditionally_aci
+AnimalFeed,"покупка корма для скота (ове, сено, отруби и т.п.)","Корм для скота","Purchase of feed for livestock (oats, hay, bran, etc.)",conditionally_productive,conditionally_aci
+Migration,"снаряжение в отхожие промыслы","Врем. заработок","Outfitting for migratory industries",productive,aci
+DebtRepayment,"уплата частных долгов","Частные долги","Repayment of private debts",non_productive,non_aci
+LoanRefinancing,"переписка выданных товаищеских обязательств  на новые сроки или на новых условиях","Рестр-я кредитов","Refinancing of issued cooperative obligations to new terms or conditions",non_productive,non_aci
+PersonalExpenses,"разные личные расходы заемщика и его семьи (продовольствие, отопление, уплата повинностей, свадьбы, похороны, лечение, воспитание детей, наряды, довольствия, мебель, книги и т.п.)","Личные расходы","Various personal expenses of the borrower and his family (food, heating, payment of duties, weddings, funerals, treatment, child rearing, clothing, furniture, books, etc.)",non_productive,non_aci
+CropCollateral,"ссуды под залог произведений сельского хозяйства и промыслов","Обесп.: с/х продукция","Loans secured by agricultural and industrial products",conditionally_productive,aci
+CraftCollateral,"ссуды под залог ремесленныз и кустарных произведений","Обесп.: ремесл. изделия","Loans secured by craft and cottage industry products",conditionally_productive,aci
