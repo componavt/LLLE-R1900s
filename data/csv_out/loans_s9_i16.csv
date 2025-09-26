@@ -1,0 +1,704 @@
+year,settlement,month_start,month_end,credit_item,loan_count,amount_rubles,loan_details
+1911,Shalskoye,11,11,Housing,3,37,на ремонт
+1911,Shalskoye,11,11,Livestock,3,36,на покупку лошадей и коров
+1911,Shalskoye,11,11,Seeds,1,10,на семена овса
+1911,Shalskoye,11,11,AnimalFeed,1,13,на покупку сена
+1911,Shalskoye,10,10,Housing,5,295,достройка и обделка дома
+1911,Shalskoye,10,10,CraftTools,7,518,на рыболовные сети
+1911,Shalskoye,10,10,Livestock,3,82,на покупку лошадей
+1911,Shalskoye,10,10,AnimalFeed,1,100,на покупку хлеба
+1911,Shalskoye,10,10,PersonalExpenses,1,50,на одежду
+1911,Shalskoye,12,12,FarmBuildings,1,7,на сети рыболовные
+1911,Shalskoye,12,12,Housing,1,10,обделка дома
+1911,Shalskoye,12,12,Livestock,3,37,покупка лошадей
+1911,Shalskoye,12,12,PersonalExpenses,2,31,на продовольствие
+1912,Gimoretskoye,10,12,FarmBuildings,13,255,"постройка сараев, амбаров и ремонт мельниц"
+1912,Gimoretskoye,10,12,Housing,18,345,постройка и ремонт домов
+1912,Gimoretskoye,10,12,FarmTools,6,125,"швейная машина, соломорезка, телега, сани, дровни"
+1912,Gimoretskoye,10,12,CraftTools,5,100,рыболовные сети и на токарный станок
+1912,Gimoretskoye,10,12,Livestock,13,202,покупка лошадей и коров
+1912,Gimoretskoye,10,12,GoodsForSale,12,470,"рыба, треска, сельди, семга и мясо"
+1912,Gimoretskoye,10,12,AnimalFeed,3,60,покупка соломы и сена
+1912,Gimoretskoye,10,12,Migration,1,10,
+1912,Gimoretskoye,10,12,DebtRepayment,1,7,
+1912,Gimoretskoye,10,12,PersonalExpenses,7,165,"платье, свадьба, журналы"
+1912,Gimoretskoye,7,9,Housing,1,20,на выкуп нового дома
+1912,Gimoretskoye,7,9,CraftMaterials,1,50, на покупку железа для кзницы
+1912,Gimoretskoye,7,9,LaborFuel,1,20,на наем рабочих
+1912,Gimoretskoye,7,9,GoodsForSale,2,50,для торговли галатереей 
+1912,Gimoretskoye,1,3,FarmBuildings,15,315,
+1912,Gimoretskoye,1,3,Housing,26,590,
+1912,Gimoretskoye,1,3,LandImprovement,1,40,осушение болота
+1912,Gimoretskoye,1,3,FarmTools,6,80,покупка саней и телег
+1912,Gimoretskoye,1,3,CraftTools,8,120,рыболовные принадлежности
+1912,Gimoretskoye,1,3,Livestock,2,35,
+1912,Gimoretskoye,1,3,Seeds,1,15,покупка клеверных семян
+1912,Gimoretskoye,1,3,CraftMaterials,1,20,
+1912,Gimoretskoye,1,3,GoodsForSale,7,245,
+1912,Gimoretskoye,1,3,AnimalFeed,2,10,
+1912,Gimoretskoye,1,3,Migration,36,553,
+1912,Gimoretskoye,1,3,DebtRepayment,4,86,
+1912,Gimoretskoye,1,3,PersonalExpenses,2,40,"газеты, книги, журнал"
+1912,Gimoretskoye,4,6,FarmBuildings,2,25,
+1912,Gimoretskoye,4,6,FarmTools,2,10,1 железная борона и колеса к телеге
+1912,Gimoretskoye,4,6,CraftTools,2,15,рыболовные сетки
+1912,Gimoretskoye,4,6,Livestock,2,45,покупка коровы и приб.(?) для лошади
+1912,Gimoretskoye,4,6,GoodsForSale,3,55,на торговлю рыбой и галантирейной мел.
+1912,Gimoretskoye,4,6,AnimalFeed,1,5,на прокорм земскому жеребцу для случек
+1912,Gimoretskoye,4,6,Migration,16,205,
+1912,Gimoretskoye,4,6,DebtRepayment,1,15,
+1912,Gimoretskoye,4,6,PersonalExpenses,1,10,"газеты, книги, журналы"
+1912,Megregskoye,7,9,Housing,3,80,на достройку домов
+1912,Megregskoye,7,9,FarmTools,1,25,на покупку материала для кабриолета
+1912,Megregskoye,7,9,Livestock,2,70,на покупку лошади и мелкого рогатого скота
+1912,Megregskoye,7,9,LaborFuel,16,250,на наем рабочих на сенокос
+1912,Megregskoye,10,12,FarmBuildings,9,332,на постройку сараев и риги
+1912,Megregskoye,10,12,Housing,3,70,на достройку домов
+1912,Megregskoye,10,12,FarmTools,13,136,на покупку телег и саней
+1912,Megregskoye,10,12,CraftMaterials,2,50,на покупку кожи
+1912,Megregskoye,10,12,GoodsForSale,1,75,на покупку разного товара для мелочной лавки
+1912,Megregskoye,10,12,AnimalFeed,2,81,на покупку сена и овса
+1912,Megregskoye,4,6,FarmBuildings,9,355,на потстройку двора и сараев 
+1912,Megregskoye,4,6,Housing,20,785,на постройку и реморт домов
+1912,Megregskoye,4,6,FarmTools,18,375,на покупку и ремонт телег
+1912,Megregskoye,4,6,CraftTools,2,30,на покупку столярных и кузнечных принадлежн.
+1912,Megregskoye,4,6,Livestock,14,565,на покупку лошадей и коров
+1912,Megregskoye,4,6,Seeds,37,639,на покупк семян овса
+1912,Megregskoye,4,6,LaborFuel,5,89,на наем рабочих на сенокос
+1912,Megregskoye,4,6,GoodsForSale,1,75,на покупку овса
+1912,Shalskoye,1,3,Housing,21,503,
+1912,Shalskoye,1,3,CraftTools,16,739,покупка и починка рыболовных снастей
+1912,Shalskoye,1,3,Livestock,11,249,
+1912,Shalskoye,1,3,AnimalFeed,27,298,
+1912,Shalskoye,1,3,DebtRepayment,6,216,
+1912,Shalskoye,1,3,PersonalExpenses,16,298,
+1912,Shalskoye,7,9,Housing,14,517,
+1912,Shalskoye,7,9,CraftTools,2,300,на покупку рыбных снастей
+1912,Shalskoye,7,9,Livestock,9,241,
+1912,Shalskoye,7,9,Seeds,31,428,
+1912,Shalskoye,7,9,LaborFuel,5,61,уборка хлеба
+1912,Shalskoye,7,9,DebtRepayment,1,75,
+1912,Shalskoye,7,9,PersonalExpenses,6,251,"вопитание детей, одежда "
+1912,Shalskoye,4,6,Housing,21,507,постройки и ремонт
+1912,Shalskoye,4,6,CraftTools,6,249,покупка и ремонт рыболовных снастей
+1912,Shalskoye,4,6,Livestock,3,75,
+1912,Shalskoye,4,6,Seeds,12,299,
+1912,Shalskoye,4,6,AnimalFeed,6,44,
+1912,Shalskoye,4,6,PersonalExpenses,16,249,"уплата податей, свадьба, одежда"
+1912,Shalskoye,10,12,Housing,41,876,
+1912,Shalskoye,10,12,CraftTools,4,220,рыболовные снасти
+1912,Shalskoye,10,12,Livestock,40,852,
+1912,Shalskoye,10,12,Seeds,4,75,
+1912,Shalskoye,10,12,AnimalFeed,25,260,
+1912,Shalskoye,10,12,PersonalExpenses,16,380,
+1912,Tipinitskoye,7,9,Housing,3,80,на покупку домов
+1912,Tipinitskoye,7,9,Livestock,3,180,на покупку лошади и коров
+1912,Tipinitskoye,7,9,PersonalExpenses,32,530,на покупку хлеба
+1912,Tipinitskoye,4,6,FarmBuildings,2,90,постройка соймы
+1912,Tipinitskoye,4,6,Housing,4,110,
+1912,Tipinitskoye,4,6,Seeds,1,10,
+1912,Tipinitskoye,4,6,GoodsForSale,8,555,
+1912,Tipinitskoye,4,6,PersonalExpenses,48,838,
+1912,Tulomozero,7,9,FarmBuildings,1,40,
+1912,Tulomozero,7,9,Housing,1,16,
+1912,Tulomozero,7,9,Livestock,4,90,
+1912,Tulomozero,7,9,Seeds,4,40,
+1912,Tulomozero,7,9,LaborFuel,8,97,
+1912,Tulomozero,7,9,GoodsForSale,1,20,
+1912,Tulomozero,7,9,PersonalExpenses,3,35,
+1912,Tulomozero,5,6,FarmBuildings,4,70,
+1912,Tulomozero,5,6,Housing,14,367,
+1912,Tulomozero,5,6,FarmTools,12,255,
+1912,Tulomozero,5,6,Livestock,3,160,
+1912,Tulomozero,5,6,Rent,2,30,
+1912,Tulomozero,5,6,Seeds,22,474,
+1912,Tulomozero,5,6,LaborFuel,8,90,
+1912,Tulomozero,5,6,GoodsForSale,1,15,
+1912,Tulomozero,5,6,DebtRepayment,4,51,
+1912,Tulomozero,5,6,PersonalExpenses,68,860,все ссуды на продовольствие
+1912,Tulomozero,10,12,FarmBuildings,6,190,
+1912,Tulomozero,10,12,Housing,7,185,
+1912,Tulomozero,10,12,FarmTools,1,50,на покупку экипажей
+1912,Tulomozero,10,12,Livestock,6,185,
+1912,Tulomozero,10,12,DebtRepayment,6,146,
+1912,Tulomozero,10,12,PersonalExpenses,8,141,
+1913,Megregskoye,1,3,Housing,1,10,на постройку дома
+1913,Megregskoye,1,3,FarmTools,1,5,на покупку саней
+1913,Megregskoye,1,3,Livestock,8,330,на покупку лошадей и коров
+1913,Megregskoye,7,9,FarmBuildings,3,125,на ремонт мельницы
+1913,Megregskoye,7,9,Housing,6,210,постройка домов и сараев
+1913,Megregskoye,7,9,LandImprovement,16,260,на уборку сена
+1913,Megregskoye,7,9,FarmTools,1,50,на покупку машины
+1913,Megregskoye,7,9,CraftTools,1,50,на покупку столярных инструментов
+1913,Megregskoye,7,9,Livestock,14,515,покупка лошадей и коров
+1913,Megregskoye,7,9,Seeds,10,193,покупка семян
+1913,Megregskoye,7,9,CraftMaterials,1,50,покупка кожи
+1913,Megregskoye,7,9,GoodsForSale,1,150,на товары
+1913,Megregskoye,7,9,Migration,1,10,на дорогу
+1913,Megregskoye,4,6,FarmTools,18,300,на покупку телег
+1913,Megregskoye,4,6,Seeds,73,771,на покупку овса
+1913,Megregskoye,10,12,Livestock,19,907,на покупку лошадей и коров
+1913,Megregskoye,10,12,GoodsForSale,5,41,на покупку дровней саней
+1913,Tulomozero,7,9,FarmBuildings,10,159,
+1913,Tulomozero,7,9,Housing,16,333,
+1913,Tulomozero,7,9,LandImprovement,1,75,на осушку пожень
+1913,Tulomozero,7,9,FarmTools,3,70,На покупку плуга 1 с. на 10 руб.; на покупку экипажа 2 с. по 60 руб.
+1913,Tulomozero,7,9,Livestock,13,345,
+1913,Tulomozero,7,9,Rent,6,100,
+1913,Tulomozero,7,9,Seeds,5,80,
+1913,Tulomozero,7,9,CraftMaterials,1,50,на покупку брёвен
+1913,Tulomozero,7,9,LaborFuel,12,190,
+1913,Tulomozero,7,9,Migration,1,30,
+1913,Tulomozero,7,9,PersonalExpenses,8,111,продовольствие 6 с. на 71 руб.; покупка обуви - 2 с. на 40 руб.
+1913,Tulomozero,4,6,FarmBuildings,9,160,
+1913,Tulomozero,4,6,Housing,15,320,
+1913,Tulomozero,4,6,LandImprovement,1,20,устройство огорода
+1913,Tulomozero,4,6,FarmTools,8,215,
+1913,Tulomozero,4,6,Livestock,12,315,
+1913,Tulomozero,4,6,Rent,5,90,аренда земли и пожень
+1913,Tulomozero,4,6,CraftMaterials,2,45,покупка дерева
+1913,Tulomozero,4,6,LaborFuel,18,275,наем рабочих
+1913,Tulomozero,4,6,GoodsForSale,1,15,
+1913,Tulomozero,4,6,DebtRepayment,3,35,
+1913,Tulomozero,4,6,PersonalExpenses,27,351,"продовольствие 23 ссуды на 246 руб.; покупка мебели - 1 с. на 60 руб., покупка пальто - 1 с. на 25 р., покупка обуви и одежды - 2 с. на 20 руб."
+1913,Tulomozero,1,3,FarmBuildings,7,176,
+1913,Tulomozero,1,3,Housing,18,540,
+1913,Tulomozero,1,3,FarmTools,5,145,
+1913,Tulomozero,1,3,Livestock,24,760,
+1913,Tulomozero,1,3,Seeds,25,416,
+1913,Tulomozero,1,3,LaborFuel,2,90,
+1913,Tulomozero,1,3,GoodsForSale,3,50,
+1913,Tulomozero,1,3,AnimalFeed,5,96,
+1913,Tulomozero,1,3,DebtRepayment,6,80,
+1913,Tulomozero,1,3,PersonalExpenses,14,265,
+1915,Gimoretskoye,1,3,LandPurchase,5,127,покупка земли и разработка
+1915,Gimoretskoye,1,3,FarmTools,21,576,"телеги, сани, сбруя"
+1915,Gimoretskoye,1,3,Livestock,14,620,перемен лошадей и покупка жеребя и коров
+1915,Gimoretskoye,1,3,Seeds,1,12,покупка семян клевера
+1915,Gimoretskoye,1,3,CraftMaterials,3,136,заготовка корня для смолы и руболовных снастей
+1915,Gimoretskoye,1,3,GoodsForSale,1,25,на покупку порожних мешков
+1915,Gimoretskoye,1,3,AnimalFeed,39,732,"покупка кормов, сена и соломы"
+1915,Gimoretskoye,1,3,Migration,28,505,на уход в заработки
+1915,Gimoretskoye,1,3,PersonalExpenses,11,210,"ржаная мука, свадьбы, обувь, одежда"
+1915,Gimoretskoye,7,9,FarmBuildings,3,130,ремонт мельницы и постройка сараев
+1915,Gimoretskoye,7,9,Housing,7,225,ремент и постройка домов и печей
+1915,Gimoretskoye,7,9,LandImprovement,1,20,яблоневых деревьев и ягодные кусты
+1915,Gimoretskoye,7,9,CraftTools,9,345,покупка и перемена лошадей и коров
+1915,Gimoretskoye,7,9,CraftMaterials,3,245,рыболовные сети; заготовка дров для риг; стекло
+1915,Gimoretskoye,7,9,LaborFuel,4,155,наем рабочих для сенокоса
+1915,Gimoretskoye,7,9,AnimalFeed,1,35,покупка жмыхов
+1915,Gimoretskoye,7,9,PersonalExpenses,3,45,покупка обуви
+1915,Gimoretskoye,10,12,LandPurchase,1,60,покупка земли у своих односельчан
+1915,Gimoretskoye,10,12,LandImprovement,2,110,расчистка пожень
+1915,Gimoretskoye,10,12,FarmTools,12,383,покупка саней и телег
+1915,Gimoretskoye,10,12,CraftTools,2,90,швейная машина и пильный станок
+1915,Gimoretskoye,10,12,CraftMaterials,7,355,покупка рыболовных сеток
+1915,Gimoretskoye,10,12,LaborFuel,1,35,заготовка дров
+1915,Gimoretskoye,10,12,AnimalFeed,4,125,сено и солома
+1915,Gimoretskoye,10,12,Migration,1,25,
+1915,Gimoretskoye,10,12,DebtRepayment,1,35,
+1915,Gimoretskoye,10,12,PersonalExpenses,13,345,"обувь, одежда, воспитание детей"
+1915,Gimoretskoye,4,6,LandPurchase,1,200,покупка земли у своих односельчан
+1915,Gimoretskoye,4,6,FarmBuildings,4,92,постройка и ремонт сараев и амбаров
+1915,Gimoretskoye,4,6,Housing,7,270,ремонт крыш и постройка домов
+1915,Gimoretskoye,4,6,LandImprovement,3,98,копка канав у полос
+1915,Gimoretskoye,4,6,FarmTools,2,30,телеги и ремонт их
+1915,Gimoretskoye,4,6,Livestock,3,110,перемен и покупка лошадей и коров
+1915,Gimoretskoye,4,6,Seeds,3,140,покупка овса для посева
+1915,Gimoretskoye,4,6,CraftMaterials,2,55,рыболовные сети и лотки
+1915,Gimoretskoye,4,6,AnimalFeed,5,80,покупка сена и соломы
+1915,Gimoretskoye,4,6,Migration,11,138,уход в бурлаки
+1915,Gimoretskoye,4,6,PersonalExpenses,6,265,"обувь, свадьбу и ржаную муку"
+1915,Ivinskoye,4,6,FarmBuildings,4,175,
+1915,Ivinskoye,4,6,Housing,9,370,
+1915,Ivinskoye,4,6,LandImprovement,6,240,
+1915,Ivinskoye,4,6,Livestock,1,50,
+1915,Ivinskoye,4,6,AnimalFeed,3,83,
+1915,Ivinskoye,4,6,Migration,5,100,
+1915,Ivinskoye,4,6,PersonalExpenses,9,250,
+1915,Ivinskoye,1,3,FarmBuildings,5,465,
+1915,Ivinskoye,1,3,Housing,7,395,
+1915,Ivinskoye,1,3,LandImprovement,6,340,
+1915,Ivinskoye,1,3,Livestock,13,600,
+1915,Ivinskoye,1,3,CraftMaterials,1,20,
+1915,Ivinskoye,1,3,LaborFuel,1,10,
+1915,Ivinskoye,1,3,AnimalFeed,15,440,
+1915,Ivinskoye,1,3,Migration,3,110,
+1915,Ivinskoye,1,3,PersonalExpenses,6,121,
+1915,Ivinskoye,7,9,FarmBuildings,5,470,
+1915,Ivinskoye,7,9,Housing,5,250,
+1915,Ivinskoye,7,9,LandImprovement,10,530,
+1915,Ivinskoye,7,9,Livestock,2,90,
+1915,Ivinskoye,7,9,LaborFuel,4,165,
+1915,Ivinskoye,7,9,Migration,9,240,
+1915,Ivinskoye,7,9,PersonalExpenses,2,115,
+1915,Ivinskoye,10,12,FarmBuildings,9,400,
+1915,Ivinskoye,10,12,Housing,10,680,
+1915,Ivinskoye,10,12,LandImprovement,5,410,
+1915,Ivinskoye,10,12,Livestock,11,530,
+1915,Ivinskoye,10,12,CraftMaterials,1,20,
+1915,Ivinskoye,10,12,AnimalFeed,1,50,
+1915,Ivinskoye,10,12,Migration,2,65,
+1915,Ivinskoye,10,12,DebtRepayment,1,35,
+1915,Ivinskoye,10,12,PersonalExpenses,8,165,
+1915,Kuzaranda,11,11,FarmBuildings,2,25,выдан на ремонт сараев
+1915,Kuzaranda,11,11,Housing,2,30,выдан на ремонт жилых помещений
+1915,Kuzaranda,11,11,Livestock,3,55,на покупку коров
+1915,Kuzaranda,11,11,GoodsForSale,1,50,на покупку рыбы (к морю)
+1915,Kuzaranda,11,11,AnimalFeed,23,313,на покупку сена и соломы
+1915,Kuzaranda,11,11,Migration,1,15,на дорогу в Петрозаводск
+1915,Kuzaranda,11,11,DebtRepayment,1,15,
+1915,Kuzaranda,11,11,PersonalExpenses,16,159,8 с. на хлебную ржаную муку - 90 руб.; 1 с. на отопление - 10 р.; 7 с. на обувь - 59 руб.
+1915,Kuzaranda,6,6,FarmBuildings,1,15,на ремонт сарая
+1915,Kuzaranda,6,6,CraftMaterials,1,15,по покупку кожи
+1915,Kuzaranda,6,6,LaborFuel,9,180,на сенокосе
+1915,Kuzaranda,6,6,PersonalExpenses,28,378,1 с. на похороны 18 руб.; 1 с. на вопитан.детей 20 руб.; 26 с. на покупку ржаной муки 340 руб.
+1915,Kuzaranda,7,7,LandPurchase,3,46,все на выкуп заложенных ранее пожень
+1915,Kuzaranda,7,7,Housing,1,10,на ремонт домов
+1915,Kuzaranda,7,7,Seeds,9,132,
+1915,Kuzaranda,7,7,LaborFuel,41,613,все на наем сенокосцев
+1915,Kuzaranda,7,7,Migration,1,5,на дорогу в Петрозаводск
+1915,Kuzaranda,7,7,DebtRepayment,1,15,
+1915,Kuzaranda,7,7,PersonalExpenses,15,209,1 с. на отправку сына в солдаты - 12 руб.; 1 с. - на свадьбу - 15 р.; 13 с. - на покупку хлеба - 182 руб.
+1915,Kuzaranda,12,12,Livestock,3,130,все выданы на покупку коров
+1915,Kuzaranda,12,12,CraftMaterials,2,306,все выданы на покупку кожи
+1915,Kuzaranda,12,12,AnimalFeed,1,20,на покупку сена
+1915,Kuzaranda,12,12,PersonalExpenses,65,875,1 с. - на отопление 5 руб.; 1 с.-на свадьбу - 20 руб.; 1 с. на воспитание детей - 10 руб.; 62 с. на хлеб (муку) 840 руб.
+1915,Kuzaranda,10,10,FarmBuildings,3,37,все выданы на ремонт мельниц
+1915,Kuzaranda,10,10,Housing,8,200,все выданы на ремонт жилых помещ.
+1915,Kuzaranda,10,10,Livestock,1,15,выданы на покупку коров
+1915,Kuzaranda,10,10,CraftMaterials,3,55,на покупку кожи
+1915,Kuzaranda,10,10,LaborFuel,1,10,на покупку дров
+1915,Kuzaranda,10,10,GoodsForSale,3,300,на покупку рыбы (к морю)
+1915,Kuzaranda,10,10,AnimalFeed,5,85,на покупку сена
+1915,Kuzaranda,10,10,Migration,1,10,на дорогу в город
+1915,Kuzaranda,10,10,PersonalExpenses,7,76,3 с. на обувь - 25 руб.; 2 с. на хлеб - 30 руб.; 1 с. на выписку журнала - 6 р.; 1 с. - ?? 15 руб.
+1915,Kuzaranda,5,5,Livestock,3,100,1 с. на покуп.коровы - 50 р.; 1 с. на пок. Лошади - 35 р.; 1 с. на покуп.телят 15 руб.
+1915,Kuzaranda,5,5,Seeds,5,105,на покупку семян овса
+1915,Kuzaranda,5,5,LaborFuel,3,40,все на пашню
+1915,Kuzaranda,5,5,PersonalExpenses,36,790,на покупку ржаной муки
+1915,Kuzaranda,9,9,FarmBuildings,3,55,все выданы на постройку сарая
+1915,Kuzaranda,9,9,Housing,1,15,на ремонт дома
+1915,Kuzaranda,9,9,LandImprovement,3,85,все на улучшение угодий
+1915,Kuzaranda,9,9,LaborFuel,6,78,все выданы на пашню
+1915,Kuzaranda,9,9,GoodsForSale,2,110,на морскую езду
+1915,Kuzaranda,9,9,Migration,2,30,на дорогу в Петрозаводск
+1915,Kuzaranda,9,9,DebtRepayment,1,10,
+1915,Kuzaranda,9,9,PersonalExpenses,5,61,2 с. на хлеб - 30 руб.; 2 с. на отпуск сына в солдаты - 20 руб.; 1 с. на обучение - 11 руб.
+1915,Kuzaranda,2,2,Housing,1,15,на ремонт домов
+1915,Kuzaranda,2,2,Seeds,2,25,покупка семян овса
+1915,Kuzaranda,2,2,AnimalFeed,4,46,покупка сена и соломы
+1915,Kuzaranda,2,2,DebtRepayment,1,15,
+1915,Kuzaranda,2,2,PersonalExpenses,17,161,1 с. - на воспитание детей 32 р.; 16 с. на покупку хлеба 120 р.
+1915,Kuzaranda,4,4,FarmBuildings,4,75,1 с. - на постройку мельницы 20 руб.; 3 с. - на ремонт сарая 55 руб.
+1915,Kuzaranda,4,4,Housing,2,80,на постройку домов
+1915,Kuzaranda,4,4,Livestock,1,15,на покупку жеребенка
+1915,Kuzaranda,4,4,Seeds,13,250,на семяна овса
+1915,Kuzaranda,4,4,CraftMaterials,2,125,на покупку кожи
+1915,Kuzaranda,4,4,LaborFuel,1,20,на наем работников
+1915,Kuzaranda,4,4,AnimalFeed,6,118,на покупку сена
+1915,Kuzaranda,4,4,DebtRepayment,1,5,
+1915,Kuzaranda,4,4,PersonalExpenses,12,336,1 с. на воспитание детей 25 р.; 11 с. на покупку ржан.муки 111 р.
+1915,Kuzaranda,8,8,Housing,1,10,на ремонт дома
+1915,Kuzaranda,8,8,Livestock,1,25,на покупку коровы
+1915,Kuzaranda,8,8,Seeds,4,41,все на покупку семян
+1915,Kuzaranda,8,8,CraftMaterials,6,575,на покупку кожи
+1915,Kuzaranda,8,8,LaborFuel,19,231,на жнитьву
+1915,Kuzaranda,8,8,Migration,2,8,на дорогу на заработки
+1915,Kuzaranda,8,8,DebtRepayment,2,54,
+1915,Kuzaranda,8,8,PersonalExpenses,6,66,все выданы на дорогу запасным и ратникам на войну
+1915,Kuzaranda,1,1,FarmBuildings,4,38,на ремонт сараев
+1915,Kuzaranda,1,1,Housing,1,20,на постройку дома
+1915,Kuzaranda,1,1,FarmTools,1,10,на покупку сепаратора
+1915,Kuzaranda,1,1,CraftMaterials,1,6,на покупку кожи
+1915,Kuzaranda,1,1,LaborFuel,2,17,на наем помощников
+1915,Kuzaranda,1,1,AnimalFeed,3,30,на покупку сена
+1915,Kuzaranda,1,1,Migration,2,45,
+1915,Kuzaranda,1,1,DebtRepayment,1,5,
+1915,Kuzaranda,1,1,PersonalExpenses,18,145,3 с. - 31 р. на свадьбы; 1 с. - 17 р. на воспитание Детей; 14 с. - 97 р. на покупку хлеба
+1915,Kuzaranda,3,3,FarmBuildings,2,50,на постройку сараев
+1915,Kuzaranda,3,3,Housing,3,42,на ремонт домов
+1915,Kuzaranda,3,3,Seeds,17,255,на покупку семян
+1915,Kuzaranda,3,3,LaborFuel,1,5,наем пильщика
+1915,Kuzaranda,3,3,AnimalFeed,15,178,на покупку сеня
+1915,Kuzaranda,3,3,PersonalExpenses,35,400,первонач. Всего 22 ссуды. Из них 21 с. - на муку 244 р.; 1 с. на обувь 10 руб. 
+1915,Ladvinskoye,4,6,FarmBuildings,7,340,
+1915,Ladvinskoye,4,6,LandImprovement,2,140,
+1915,Ladvinskoye,4,6,FarmTools,7,245,
+1915,Ladvinskoye,4,6,Livestock,9,375,
+1915,Ladvinskoye,4,6,Seeds,5,60,
+1915,Ladvinskoye,4,6,CraftMaterials,6,390,
+1915,Ladvinskoye,4,6,LaborFuel,11,365,
+1915,Ladvinskoye,4,6,AnimalFeed,3,60,
+1915,Ladvinskoye,4,6,Migration,3,51,
+1915,Ladvinskoye,4,6,PersonalExpenses,10,179,
+1915,Ladvinskoye,10,12,FarmBuildings,1,40,
+1915,Ladvinskoye,10,12,Housing,3,85,
+1915,Ladvinskoye,10,12,LandImprovement,4,450,
+1915,Ladvinskoye,10,12,FarmTools,2,65,
+1915,Ladvinskoye,10,12,CraftMaterials,1,100,
+1915,Ladvinskoye,10,12,LaborFuel,2,40,
+1915,Ladvinskoye,10,12,AnimalFeed,3,330,
+1915,Ladvinskoye,10,12,PersonalExpenses,21,396,1 ссуда в 100 руб. на обучение детей
+1915,Ladvinskoye,1,3,FarmBuildings,11,338,
+1915,Ladvinskoye,1,3,Housing,19,695,
+1915,Ladvinskoye,1,3,LandImprovement,1,15,
+1915,Ladvinskoye,1,3,FarmTools,5,130,
+1915,Ladvinskoye,1,3,CraftTools,5,185,
+1915,Ladvinskoye,1,3,Livestock,16,725,
+1915,Ladvinskoye,1,3,Seeds,3,95,
+1915,Ladvinskoye,1,3,CraftMaterials,5,485,
+1915,Ladvinskoye,1,3,LaborFuel,7,175,
+1915,Ladvinskoye,1,3,GoodsForSale,2,150,закупка мешков и мяса для продажи
+1915,Ladvinskoye,1,3,AnimalFeed,24,605,
+1915,Ladvinskoye,1,3,Migration,4,110,
+1915,Ladvinskoye,1,3,PersonalExpenses,20,391,2 ссуды на взнос платы за обучение детей 160 руб.
+1915,Tipinitskoye,7,9,Housing,11,345,на постройку новых домов и на ремонт старых
+1915,Tipinitskoye,7,9,Livestock,8,182,на покупку лошадей и коров
+1915,Tipinitskoye,7,9,Seeds,43,642,на покупку семян ржи
+1915,Tipinitskoye,7,9,LaborFuel,8,150,на наем рабочих
+1915,Tipinitskoye,7,9,PersonalExpenses,44,912,"на воспитание детей - 1; на свадьбу - 1; на одежду - 6; на личные расходы - 2, на хлеб - 34"
+1915,Tipinitskoye,4,6,FarmBuildings,2,45,на постройку амбара и ремонт жилья
+1915,Tipinitskoye,4,6,Livestock,2,60,на покупку лошади и коровы
+1915,Tipinitskoye,4,6,Seeds,50,800,на покупку овса
+1915,Tipinitskoye,4,6,GoodsForSale,4,380,"на покупку скота, масла, яиц и крупы для продажи"
+1915,Tipinitskoye,4,6,AnimalFeed,32,716,на покупку сена и овса
+1915,Tipinitskoye,1,3,FarmBuildings,3,106,на постройку домов
+1915,Tipinitskoye,1,3,Livestock,3,65,на покупку скота
+1915,Tipinitskoye,1,3,GoodsForSale,7,465,комерческие
+1915,Tipinitskoye,1,3,AnimalFeed,3,100,покупка корма для скота
+1915,Tipinitskoye,1,3,PersonalExpenses,10,220,на одежду и другие расходы
+1915,Tipinitskoye,10,12,Housing,7,207,на покупку новых и на ремонт старых
+1915,Tipinitskoye,10,12,Livestock,10,414,покупка коров и лошадей
+1915,Tipinitskoye,10,12,Seeds,2,30,покупка овса для посева
+1915,Tipinitskoye,10,12,AnimalFeed,7,117,на покупку сена
+1915,Tipinitskoye,10,12,PersonalExpenses,33,580,продовольствие -10 с.; личные расходы - 8 с.; обувь и одежду - 15 с.
+1916,Gimoretskoye,1,3,LandPurchase,1,35,у своих односельчан
+1916,Gimoretskoye,1,3,FarmBuildings,24,869,"постройка и ремонт сараев, юань, амбаров и гумен"
+1916,Gimoretskoye,1,3,FarmTools,12,345,"покупка саней, телег и сбруи"
+1916,Gimoretskoye,1,3,CraftTools,3,85,устройство пильного станка и покупка гранитных инструментов
+1916,Gimoretskoye,1,3,CraftMaterials,10,395,покупка рыболовных сетей и стекла
+1916,Gimoretskoye,1,3,LaborFuel,3,70,наем рабочих и лошадей
+1916,Gimoretskoye,1,3,AnimalFeed,14,462,на покупку сена и соломы
+1916,Gimoretskoye,1,3,Migration,1,15,на отъезд в бурлаки
+1916,Gimoretskoye,1,3,PersonalExpenses,10,410,"на хлеб, свадьбы, обувь и воспитание детей"
+1916,Gimoretskoye,4,6,FarmBuildings,1,25,постойка мастерской 
+1916,Gimoretskoye,4,6,Housing,1,50,пилка теса
+1916,Gimoretskoye,4,6,LandImprovement,3,95,улучшение земледелия и садоводства
+1916,Gimoretskoye,4,6,FarmTools,3,60,покупка телег и колес
+1916,Gimoretskoye,4,6,CraftTools,3,60,покупка инструментов и лодки
+1916,Gimoretskoye,4,6,Livestock,5,335,покупка лошадей и коров
+1916,Gimoretskoye,4,6,Seeds,1,30,покупка семян
+1916,Gimoretskoye,4,6,CraftMaterials,3,75,на стекло и рыболовных сетей
+1916,Gimoretskoye,4,6,LaborFuel,3,145,наем рабочих и лошадей
+1916,Gimoretskoye,4,6,Migration,3,60,на отъезд в бурлаки
+1916,Gimoretskoye,4,6,PersonalExpenses,5,420,на покупку хлеба
+1916,Gimoretskoye,10,12,FarmBuildings,12,492,на постройку и ремонт конюшен и сараев
+1916,Gimoretskoye,10,12,Housing,18,940,на ремонт и постройку дома и печей
+1916,Gimoretskoye,10,12,LandImprovement,2,105,на обработку земли
+1916,Gimoretskoye,10,12,FarmTools,11,450,"на покупку телег, саней и проч."
+1916,Gimoretskoye,10,12,CraftMaterials,3,180,наем рабочих
+1916,Gimoretskoye,10,12,AnimalFeed,1,40,на покупку корма
+1916,Gimoretskoye,10,12,PersonalExpenses,18,780,на обувь
+1916,Gimoretskoye,7,9,LandPurchase,1,55,покупка земли
+1916,Gimoretskoye,7,9,FarmBuildings,2,150,ремонт мельниц
+1916,Gimoretskoye,7,9,Housing,6,316,"ремонт домов, печей и дворов"
+1916,Gimoretskoye,7,9,LandImprovement,4,435,на улучшение хозяйства и обработку земли
+1916,Gimoretskoye,7,9,FarmTools,1,50,на покупку соломорезки
+1916,Gimoretskoye,7,9,Livestock,5,344,на покупку лошадей и коров
+1916,Gimoretskoye,7,9,Seeds,1,25,на покупку семян для посева
+1916,Gimoretskoye,7,9,CraftMaterials,3,148,на покупку рыболовных сетей
+1916,Gimoretskoye,7,9,LaborFuel,4,110,на наем рабочих
+1916,Gimoretskoye,7,9,Migration,2,65,на отъезд в бурлаки
+1916,Gimoretskoye,7,9,PersonalExpenses,4,190,на покупку хлеба
+1916,Ivinskoye,4,6,FarmBuildings,1,25,
+1916,Ivinskoye,4,6,LandImprovement,2,400,
+1916,Ivinskoye,4,6,Livestock,3,250,
+1916,Ivinskoye,4,6,Rent,1,50,
+1916,Ivinskoye,4,6,Migration,1,35,
+1916,Ivinskoye,4,6,PersonalExpenses,1,30,
+1916,Ivinskoye,1,3,FarmBuildings,2,25,
+1916,Ivinskoye,1,3,Housing,1,50,
+1916,Ivinskoye,1,3,LandImprovement,7,460,
+1916,Ivinskoye,1,3,Livestock,2,220,
+1916,Ivinskoye,1,3,CraftMaterials,1,25,
+1916,Ivinskoye,1,3,AnimalFeed,5,240,
+1916,Ivinskoye,1,3,Migration,1,30,
+1916,Ivinskoye,1,3,PersonalExpenses,9,246,на покупку муки на хлеб
+1916,Ivinskoye,7,8,Housing,5,285,
+1916,Ivinskoye,7,8,LandImprovement,4,700,
+1916,Ivinskoye,7,8,Livestock,4,405,
+1916,Ivinskoye,7,8,CraftMaterials,1,30,
+1916,Ivinskoye,7,8,LaborFuel,1,20,
+1916,Ivinskoye,7,8,Migration,6,350,
+1916,Ivinskoye,7,8,PersonalExpenses,2,130,
+1916,Ivinskoye,10,12,FarmBuildings,1,25,
+1916,Ivinskoye,10,12,LandImprovement,6,735,
+1916,Ivinskoye,10,12,Livestock,8,570,покупка лошадей
+1916,Ivinskoye,10,12,PersonalExpenses,3,105,
+1916,Kuzaranda,2,2,FarmBuildings,4,213,все на постройку сарая
+1916,Kuzaranda,2,2,Housing,6,300,все - на постройку домов
+1916,Kuzaranda,2,2,Livestock,19,802,3 с. на 200 руб. - на покупку лошади; 16 с. на 602 р. - на покупку коров
+1916,Kuzaranda,2,2,Seeds,1,25,
+1916,Kuzaranda,2,2,CraftMaterials,7,90,все на покупку кожи
+1916,Kuzaranda,2,2,GoodsForSale,1,200,на покупку рыбы
+1916,Kuzaranda,2,2,AnimalFeed,31,459,все на покупку сена
+1916,Kuzaranda,2,2,PersonalExpenses,46,622,4 с. на 26 руб. - на дрова; 42 с. по 596 руб. - выд. На хлеб
+1916,Kuzaranda,8,8,FarmBuildings,1,20,на постройку сарая
+1916,Kuzaranda,8,8,Seeds,4,76,на семяна
+1916,Kuzaranda,8,8,LaborFuel,16,362,2 с. на 60 руб. - на пашню; 13 на 292 р. - на жнитву; 1 с. на 10 руб. - на сенокос
+1916,Kuzaranda,8,8,Migration,2,16,
+1916,Kuzaranda,8,8,PersonalExpenses,6,136,1 с. на 10 руб. - на обувь; 5 с. на 126 руб. - на хлеб
+1916,Kuzaranda,10,10,FarmBuildings,4,190,2 с. на 105 руб. - на постройку хлева; 1 с. на 50 руб. - на постройку сарая; 1 с. на 35 руб. - на построцку кузницы
+1916,Kuzaranda,10,10,Housing,1,5,постройка дома
+1916,Kuzaranda,10,10,Livestock,2,120,1 с. на 100 руб. - на коров.; 1 с. на 20 руб. - покупка лошад.
+1916,Kuzaranda,10,10,CraftMaterials,2,40,на покупку кожи
+1916,Kuzaranda,10,10,AnimalFeed,1,16,на покупку корма
+1916,Kuzaranda,10,10,Migration,1,25,на дорогу
+1916,Kuzaranda,10,10,DebtRepayment,1,10,на уплату долга
+1916,Kuzaranda,10,10,PersonalExpenses,13,215,10 с. на 173 р. на обувь; 3 с. на 42 р. - на хлеб.
+1916,Kuzaranda,12,12,AnimalFeed,9,242,6 с. - на 147 руб. - на сено; 3 с. на 95 руб. - на овес
+1916,Kuzaranda,12,12,Migration,1,20,на дорогу в Кемь
+1916,Kuzaranda,12,12,DebtRepayment,1,11,
+1916,Kuzaranda,12,12,PersonalExpenses,4,75,1 с. на 15 р. - на свадьбу; 1 с. на 10 р. - на страхование дома; 1 с. на 40 руб. - на обувь; 1 с. на 10 руб. - на хлеб.
+1916,Kuzaranda,7,7,FarmBuildings,1,25,на постройку сарая
+1916,Kuzaranda,7,7,Housing,1,20,на постройку дома
+1916,Kuzaranda,7,7,LandImprovement,1,10,на разработку полосы
+1916,Kuzaranda,7,7,Seeds,13,303,все на семяна
+1916,Kuzaranda,7,7,CraftMaterials,1,20,на кожу
+1916,Kuzaranda,7,7,LaborFuel,25,615,14 с. на 330 руб. - на сенокос; 9 с. на 260 руб. - на жнитву; 2 с. на 25 руб. - на пашню
+1916,Kuzaranda,7,7,PersonalExpenses,10,461,8 с. на 426 руб. - на муку; 1 с. на 5 руб. - на обувь; 1 с. на 30 руб. - на воспитание детей
+1916,Kuzaranda,4,4,FarmBuildings,1,30,на постройку сарая
+1916,Kuzaranda,4,4,LandImprovement,1,70,на разработку пожни
+1916,Kuzaranda,4,4,Seeds,10,155,все на покупку семян
+1916,Kuzaranda,4,4,CraftMaterials,1,15,на невод
+1916,Kuzaranda,4,4,LaborFuel,4,60,все на пашню
+1916,Kuzaranda,4,4,GoodsForSale,1,300, на кожу
+1916,Kuzaranda,4,4,AnimalFeed,1,35,на сено
+1916,Kuzaranda,4,4,DebtRepayment,2,35,в уплату долга
+1916,Kuzaranda,4,4,PersonalExpenses,5,150,1 с. на 40 руб. - на воспитание детей; 4 с. на 100 руб. - на муку
+1916,Kuzaranda,1,1,FarmBuildings,1,10,на ремонт ригачи
+1916,Kuzaranda,1,1,Livestock,7,185,все на покупку коровы
+1916,Kuzaranda,1,1,AnimalFeed,5,48,все на покупку сена
+1916,Kuzaranda,1,1,PersonalExpenses,3,34,1 с. на 3 руб. - на дрова; 2 с. на 31 руб - на свадьбу
+1916,Kuzaranda,6,6,Housing,1,20,на работу печи
+1916,Kuzaranda,6,6,FarmTools,4,37,на покупку косы
+1916,Kuzaranda,6,6,Livestock,1,50,на покупку лошади
+1916,Kuzaranda,6,6,LaborFuel,15,352,4 с. на 45 руб. - на пашню; 1 с. на 100 руб. - на наем пильщиков; 10 с. на 207 руб. - на сенокосы
+1916,Kuzaranda,6,6,DebtRepayment,1,14,все в уплату долга
+1916,Kuzaranda,6,6,PersonalExpenses,6,130,все на хлеб
+1916,Kuzaranda,5,5,FarmBuildings,4,175,2 с. на 50 руб. - на постройку сараев; 2 с. на 125 руб. - на постройку хлевов
+1916,Kuzaranda,5,5,Housing,2,65,на постройку домов
+1916,Kuzaranda,5,5,Livestock,1,35,на покупку лошади
+1916,Kuzaranda,5,5,Seeds,14,265,все на покупку семян
+1916,Kuzaranda,5,5,CraftMaterials,3,225,все на покупку кожи
+1916,Kuzaranda,5,5,LaborFuel,2,40,1 с. на 10 руб. на пашню; 1 с. на 30 руб. на наем пильщиков
+1916,Kuzaranda,5,5,Migration,2,10,на дорогу на заработки
+1916,Kuzaranda,5,5,DebtRepayment,3,65,на уплату частных долгов
+1916,Kuzaranda,5,5,PersonalExpenses,8,156,1 с. на 30 руб. - на лодку; 2 с. на 34 руб. - на обувь; 1 с. на 20 руб. - на отправку сына в солдаты; 4 с. на 42 руб. - на муку
+1916,Kuzaranda,9,9,FarmBuildings,3,110,1 с. на 40 р. - постройка риги; 1 с. на 20 р. - постройка сарая; 1 с. на 50 р. - постройка хлева
+1916,Kuzaranda,9,9,Housing,2,65,на постройку домов
+1916,Kuzaranda,9,9,CraftMaterials,1,10,на покупку кожи
+1916,Kuzaranda,9,9,LaborFuel,8,149,на уборку хлеба
+1916,Kuzaranda,9,9,GoodsForSale,2,300,на покупку товара для продажи
+1916,Kuzaranda,9,9,DebtRepayment,2,35,уплата частных долгов
+1916,Kuzaranda,9,9,PersonalExpenses,10,180,8 с. по 150 р. - на обувь; 1 с. на 20 руб. - воспитание детей; 1 с. на 10 руб. - на хлеб
+1916,Kuzaranda,11,11,Livestock,1,30,на покупку лошади
+1916,Kuzaranda,11,11,AnimalFeed,5,77,все на покупку сена
+1916,Kuzaranda,11,11,DebtRepayment,2,45,
+1916,Kuzaranda,3,3,FarmBuildings,1,50,на постройку дома
+1916,Kuzaranda,3,3,CraftTools,1,100,на покупку коровы
+1916,Kuzaranda,3,3,Seeds,1,10,
+1916,Kuzaranda,3,3,AnimalFeed,11,194,все на покупку сена
+1916,Kuzaranda,3,3,Migration,1,5,на дорогу в солдаты
+1916,Kuzaranda,3,3,PersonalExpenses,15,264,1 на 30 руб. - на воспитание детей; 1 с. на 10 руб. - на обувь; 13 с. на 224 р. - на хлеб.
+1916,Ladvinskoye,7,9,LandImprovement,1,40,
+1916,Ladvinskoye,7,9,CraftTools,1,50,
+1916,Ladvinskoye,7,9,Livestock,6,385,
+1916,Ladvinskoye,7,9,LaborFuel,3,50,
+1916,Ladvinskoye,7,9,GoodsForSale,1,200,
+1916,Ladvinskoye,7,9,Migration,1,50,
+1916,Ladvinskoye,7,9,PersonalExpenses,3,55,
+1916,Ladvinskoye,1,3,LandPurchase,1,80,
+1916,Ladvinskoye,1,3,FarmBuildings,4,195,
+1916,Ladvinskoye,1,3,Housing,6,275,
+1916,Ladvinskoye,1,3,LandImprovement,2,400,
+1916,Ladvinskoye,1,3,CraftTools,1,40,
+1916,Ladvinskoye,1,3,Livestock,10,415,
+1916,Ladvinskoye,1,3,CraftMaterials,2,120,
+1916,Ladvinskoye,1,3,LaborFuel,8,330,
+1916,Ladvinskoye,1,3,AnimalFeed,3,250,
+1916,Ladvinskoye,1,3,Migration,1,35,
+1916,Ladvinskoye,1,3,PersonalExpenses,27,682,из них 11 ссуд на 320 руб. - на закупку муки; 1 с. на 100 руб. - взнос платы за обучние детей
+1916,Ladvinskoye,4,6,LandPurchase,1,100,
+1916,Ladvinskoye,4,6,FarmBuildings,2,225,
+1916,Ladvinskoye,4,6,Housing,7,185,
+1916,Ladvinskoye,4,6,CraftTools,5,390,
+1916,Ladvinskoye,4,6,Livestock,2,50,
+1916,Ladvinskoye,4,6,Seeds,6,155,
+1916,Ladvinskoye,4,6,CraftMaterials,1,100,
+1916,Ladvinskoye,4,6,LaborFuel,3,35,
+1916,Ladvinskoye,4,6,Migration,1,30,
+1916,Ladvinskoye,4,6,PersonalExpenses,14,305,из них 6 ссуд на 165 руб. - на покупку муки 
+1916,Megregskoye,4,6,FarmBuildings,8,360,на ремонт сараев и амбаров
+1916,Megregskoye,4,6,Seeds,24,640,покупка овса для посева
+1916,Megregskoye,4,6,LaborFuel,12,405,наем рабочих рук и дров
+1916,Megregskoye,4,6,AnimalFeed,4,110,покупка сена для скота
+1916,Megregskoye,4,6,DebtRepayment,1,100,уплата частного долга
+1916,Megregskoye,1,3,FarmBuildings,4,300,на ремонт сараев
+1916,Megregskoye,1,3,Housing,4,195,на ремонт домов
+1916,Megregskoye,1,3,Seeds,9,240, покупка овса для посева
+1916,Megregskoye,1,3,CraftMaterials,16,860,"покупка железа, дерева и кожи"
+1916,Megregskoye,1,3,LaborFuel,1,200,покупка горючего материала
+1916,Megregskoye,1,3,Migration,2,115,снаряжение в отхожие промыслы
+1916,Megregskoye,1,3,DebtRepayment,1,25,уплата частных долгов
+1916,Megregskoye,1,3,PersonalExpenses,1,50,на свадьбу
+1916,Megregskoye,10,12,FarmBuildings,1,50,на ремонт сараев
+1916,Megregskoye,10,12,Housing,3,95,на ремонт жилья
+1916,Megregskoye,10,12,CraftMaterials,5,170,покупка железа и кожи
+1916,Megregskoye,10,12,LaborFuel,2,230,наем рабочей силы
+1916,Megregskoye,10,12,AnimalFeed,8,615,покупка сена и овса для скота
+1916,Megregskoye,10,12,Migration,3,285,снаряжение в отхожие промыслы
+1916,Megregskoye,10,12,DebtRepayment,1,100,упата частного долга
+1916,Megregskoye,10,12,PersonalExpenses,1,50,на воспитание детей
+1916,Megregskoye,7,9,FarmBuildings,5,320,на ремонт сараев
+1916,Megregskoye,7,9,Housing,3,100,на ремонт жилья
+1916,Megregskoye,7,9,Livestock,7,360,покупка коров и лошадей
+1916,Megregskoye,7,9,Seeds,4,85,покупка семян для посева
+1916,Megregskoye,7,9,CraftMaterials,4,220,покупка железа и дерева
+1916,Megregskoye,7,9,LaborFuel,16,840,наем рабочей силы и горючего материала
+1916,Megregskoye,7,9,AnimalFeed,2,80,покупка сена для скота
+1916,Megregskoye,7,9,Migration,3,100,снаряжение в отхожие промыслы
+1916,Megregskoye,7,9,DebtRepayment,1,10,уплата частного долга
+1916,Tulomozero,1,3,Housing,24,850,
+1916,Tulomozero,1,3,FarmTools,11,435,"покупка саней, телег и кабриолетов"
+1916,Tulomozero,1,3,Livestock,17,605,
+1916,Tulomozero,1,3,CraftMaterials,1,75,покупка кож
+1916,Tulomozero,1,3,LaborFuel,9,280,
+1916,Tulomozero,1,3,AnimalFeed,20,415,
+1916,Tulomozero,1,3,PersonalExpenses,5,109,
+1916,Tulomozero,4,6,Housing,4,215,
+1916,Tulomozero,4,6,Livestock,2,250,
+1916,Tulomozero,4,6,Seeds,2,70,
+1916,Tulomozero,4,6,LaborFuel,1,20,
+1916,Tulomozero,4,6,Migration,1,20,
+1916,Tulomozero,4,6,PersonalExpenses,10,375,"в виду чрезвычайной дороговизны муки, доходящей до 18 руб. за мешок, большая часть ссуд выдана на покупку муки"
+1916,Tulomozero,10,12,Housing,12,465,
+1916,Tulomozero,10,12,Livestock,8,460,
+1916,Tulomozero,10,12,CraftMaterials,1,100,
+1916,Tulomozero,10,12,LaborFuel,3,75,
+1916,Tulomozero,10,12,AnimalFeed,1,30,
+1916,Tulomozero,10,12,Migration,2,100,
+1916,Tulomozero,10,12,PersonalExpenses,23,930,"большая часть ссуд выдана на покупку муки, т.к. крестьяне запасаются ей, пока она дешевле"
+1916,Tulomozero,7,9,Housing,9,370,
+1916,Tulomozero,7,9,FarmTools,4,215,
+1916,Tulomozero,7,9,Livestock,6,315,
+1916,Tulomozero,7,9,Seeds,5,190,
+1916,Tulomozero,7,9,LaborFuel,25,968,
+1916,Tulomozero,7,9,PersonalExpenses,16,380,
+1916,Vedlozero,11,11,Housing,15,711,
+1916,Vedlozero,11,11,Livestock,7,380,
+1916,Vedlozero,11,11,GoodsForSale,1,50,
+1916,Vedlozero,11,11,PersonalExpenses,6,145,
+1916,Vedlozero,12,12,Housing,3,95,
+1916,Vedlozero,12,12,Livestock,2,60,
+1916,Vedlozero,12,12,AnimalFeed,1,40,
+1916,Vedlozero,12,12,PersonalExpenses,1,25,
+1916,Vedlozero,8,8,Housing,13,535,
+1916,Vedlozero,8,8,Livestock,5,220,
+1916,Vedlozero,8,8,PersonalExpenses,2,33,
+1916,Vedlozero,9,9,Housing,5,195,
+1916,Vedlozero,9,9,Livestock,2,70,
+1916,Vedlozero,9,9,AnimalFeed,1,35,
+1916,Vedlozero,9,9,DebtRepayment,1,20,
+1916,Vedlozero,2,2,Housing,5,250,
+1916,Vedlozero,2,2,Livestock,4,145,
+1916,Vedlozero,2,2,Seeds,27,713,
+1916,Vedlozero,2,2,AnimalFeed,2,100,
+1916,Vedlozero,2,2,PersonalExpenses,1,12,
+1916,Vedlozero,7,7,Seeds,4,125,
+1916,Vedlozero,7,7,CraftMaterials,2,115,рыбооловных сетей
+1916,Vedlozero,4,4,Housing,3,170,
+1916,Vedlozero,4,4,Livestock,3,110,
+1916,Vedlozero,4,4,Seeds,13,340,
+1916,Vedlozero,4,4,AnimalFeed,1,10,
+1916,Vedlozero,4,4,PersonalExpenses,1,20,
+1916,Vedlozero,10,10,Housing,11,380,
+1916,Vedlozero,10,10,Livestock,5,175,
+1916,Vedlozero,10,10,PersonalExpenses,1,15,
+1916,Vedlozero,1,1,Housing,9,290,
+1916,Vedlozero,1,1,Livestock,3,80,
+1916,Vedlozero,1,1,Seeds,14,330,
+1916,Vedlozero,1,1,AnimalFeed,1,20,
+1916,Vedlozero,1,1,DebtRepayment,1,18,
+1916,Vedlozero,6,6,Housing,5,210,
+1917,Gimoretskoye,1,12,LandPurchase,2,110,покупка земли
+1917,Gimoretskoye,1,12,FarmBuildings,13,795,"постройка сараев, амбаров и др."
+1917,Gimoretskoye,1,12,LandImprovement,3,170,обработка земли и полей
+1917,Gimoretskoye,1,12,Seeds,2,85,покупка семян
+1917,Gimoretskoye,1,12,CraftMaterials,8,800,покупка пяболовных снастей и др.
+1917,Gimoretskoye,1,12,LaborFuel,2,70,наем рабочей силы
+1917,Gimoretskoye,1,12,GoodsForSale,3,450,покупка рыбы
+1917,Gimoretskoye,1,12,AnimalFeed,8,475,покупка корма для скота
+1917,Gimoretskoye,1,12,Migration,2,60,на дорогу в бурлаки
+1917,Ivinskoye,1,12,Housing,1,50,
+1917,Ivinskoye,1,12,LandImprovement,6,540,
+1917,Ivinskoye,1,12,Livestock,3,420,
+1917,Ivinskoye,1,12,AnimalFeed,7,280,
+1917,Ivinskoye,1,12,Migration,1,75,
+1917,Ivinskoye,1,12,PersonalExpenses,11,576,
+1917,Kuzaranda,1,3,Housing,17,706,
+1917,Kuzaranda,1,3,FarmTools,3,115,
+1917,Kuzaranda,1,3,CraftTools,5,120,
+1917,Kuzaranda,1,3,Livestock,13,980,
+1917,Kuzaranda,1,3,Seeds,16,505,
+1917,Kuzaranda,1,3,LaborFuel,28,860,
+1917,Kuzaranda,1,3,AnimalFeed,6,159,
+1917,Kuzaranda,1,3,Migration,23,711,
+1917,Kuzaranda,1,3,DebtRepayment,6,145,
+1917,Ladvinskoye,1,12,LandPurchase,1,200,
+1917,Ladvinskoye,1,12,FarmBuildings,3,105,
+1917,Ladvinskoye,1,12,Housing,9,780,
+1917,Ladvinskoye,1,12,LandImprovement,1,50,
+1917,Ladvinskoye,1,12,FarmTools,7,255,
+1917,Ladvinskoye,1,12,Seeds,3,95,
+1917,Ladvinskoye,1,12,CraftMaterials,2,200,
+1917,Ladvinskoye,1,12,LaborFuel,17,755,
+1917,Ladvinskoye,1,12,GoodsForSale,1,200,
+1917,Ladvinskoye,1,12,AnimalFeed,3,420,
+1917,Ladvinskoye,1,12,Migration,2,65,
+1917,Vedlozero,12,12,Livestock,2,210,
+1917,Vedlozero,12,12,PersonalExpenses,11,820,
+1917,Vedlozero,3,3,Housing,1,50,
+1917,Vedlozero,3,3,Rent,10,230,
+1917,Vedlozero,7,7,Housing,4,290,
+1917,Vedlozero,7,7,Livestock,3,200,
+1917,Vedlozero,7,7,Seeds,8,330,
+1917,Vedlozero,7,7,PersonalExpenses,2,70,
+1917,Vedlozero,5,5,Housing,5,200,
+1917,Vedlozero,5,5,Livestock,1,60,
+1917,Vedlozero,5,5,Seeds,6,225,
+1917,Vedlozero,5,5,PersonalExpenses,5,115,
+1917,Vedlozero,6,6,Housing,4,195,
+1917,Vedlozero,6,6,LandImprovement,1,50,
+1917,Vedlozero,6,6,Livestock,2,200,
+1917,Vedlozero,6,6,Seeds,1,40,
+1917,Vedlozero,6,6,PersonalExpenses,1,50,
+1917,Vedlozero,4,4,Housing,1,50,
+1917,Vedlozero,4,4,Livestock,1,25,
+1917,Vedlozero,4,4,Seeds,7,270,
+1917,Vedlozero,1,1,FarmBuildings,4,160,
+1917,Vedlozero,1,1,Livestock,1,50,
+1917,Vedlozero,2,2,Housing,2,180,
+1917,Vedlozero,2,2,Seeds,8,320,
+1917,Vedlozero,2,2,PersonalExpenses,3,120,
+1917,Vedlozero,8,8,Housing,6,460,
+1917,Vedlozero,8,8,Livestock,1,100,
+1917,Vedlozero,8,8,PersonalExpenses,3,105,
+1917,Vedlozero,9,9,Housing,9,565,
+1917,Vedlozero,9,9,Livestock,5,350,
+1917,Vedlozero,9,9,CraftMaterials,2,250,
+1917,Vedlozero,9,9,PersonalExpenses,5,210,
+1917,Vedlozero,11,11,Livestock,1,35,
+1917,Vedlozero,11,11,GoodsForSale,1,100,
+1917,Vedlozero,11,11,PersonalExpenses,2,145,
