@@ -122,13 +122,26 @@ def parse_filename(filename: str) -> Optional[Tuple[str, str, int, int]]:
 
 def clean_amount(amount_str: str) -> Optional[int]:
     """
-    Extract integer from string like "25р." → 25
+    Extract integer from string like:
+        "25р." → 25
+        "2 762р." → 2762
+        "10 000 р." → 10000
+    Handles both regular spaces and non-breaking spaces (U+00A0).
     Returns None if not possible.
     """
     if pd.isna(amount_str) or not isinstance(amount_str, str):
         return None
-    # Remove "р." and any trailing/leading whitespace
-    cleaned = amount_str.replace("р.", "").strip()
+
+    # Remove "р." (case-insensitive) and any whitespace around it
+    # Also normalize non-breaking spaces to regular spaces
+    cleaned = amount_str.replace("\u00A0", " ")  # replace non-breaking space
+    cleaned = re.sub(r"[рР]\.?", "", cleaned)   # remove "р.", "Р.", "р", etc.
+    cleaned = re.sub(r"[^\d\s]", "", cleaned)   # keep only digits and whitespace
+    cleaned = re.sub(r"\s+", "", cleaned)       # remove all whitespace (including spaces between digits)
+
+    if not cleaned.isdigit():
+        return None
+
     try:
         return int(cleaned)
     except ValueError:
