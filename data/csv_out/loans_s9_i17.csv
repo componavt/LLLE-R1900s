@@ -380,12 +380,6 @@ year,settlement,month_start,month_end,credit_item,loan_count,amount_rubles,loan_
 1915,Tipinitskoye,10,12,GoodsForSale,28,1830,"на покупку скота для мяса; рыбы, масла, яиц"
 1915,Tipinitskoye,10,12,AnimalFeed,7,117,на покупку сена
 1915,Tipinitskoye,10,12,PersonalExpenses,33,580,продовольствие -10 с.; личные расходы - 8 с.; обувь и одежду - 15 с.
-1915,Tipinitskoye,1,3,FarmBuildings,3,106,на постройку домов
-1915,Tipinitskoye,1,3,Livestock,3,65,на покупку скота
-1915,Tipinitskoye,1,3,Seeds,100,1875,на покупку семян овса
-1915,Tipinitskoye,1,3,GoodsForSale,7,465,комерческие
-1915,Tipinitskoye,1,3,AnimalFeed,3,100,покупка корма для скота
-1915,Tipinitskoye,1,3,PersonalExpenses,10,220,на одежду и другие расходы
 1915,Tipinitskoye,4,6,FarmBuildings,2,45,на постройку амбара и ремонт жилья
 1915,Tipinitskoye,4,6,Livestock,2,60,на покупку лошади и коровы
 1915,Tipinitskoye,4,6,Seeds,50,800,на покупку овса
