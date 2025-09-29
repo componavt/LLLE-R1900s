@@ -19,6 +19,7 @@ CSV_IN_DIR = os.getenv("CSV_IN_DIR", "data/csv_in")
 PARQUET_PATH = os.getenv("PARQUET_PATH", "data/data.parquet")
 OUTPUTS_DIR = os.getenv("OUTPUTS_DIR", "outputs")
 CSV_OUT_DIR = os.getenv("CSV_OUT_DIR", "data/csv_out")
+DEBUG = os.getenv("DEBUG", "false").lower() in ("true", "1", "yes", "on")
 
 # Ensure output directory exists
 Path(OUTPUTS_DIR).mkdir(parents=True, exist_ok=True)
@@ -120,32 +121,47 @@ def parse_filename(filename: str) -> Optional[Tuple[str, str, int, int]]:
     return year, settlement_english, month_start, month_end
 
 
-def clean_amount(amount_str: str) -> Optional[int]:
+def clean_amount(amount_str) -> Optional[int]:
     """
-    Extract integer from string like:
-        "25р." → 25
-        "2 762р." → 2762
-        "10 000 р." → 10000
-    Handles both regular spaces and non-breaking spaces (U+00A0).
+    Extract integer from:
+      - string: "25р.", "2 762р.", "1 875.0"
+      - number: 106.0, 1875, np.nan
     Returns None if not possible.
     """
-    if pd.isna(amount_str) or not isinstance(amount_str, str):
-        return None
+    original_input = amount_str
 
-    # Remove "р." (case-insensitive) and any whitespace around it
-    # Also normalize non-breaking spaces to regular spaces
-    cleaned = amount_str.replace("\u00A0", " ")  # replace non-breaking space
-    cleaned = re.sub(r"[рР]\.?", "", cleaned)   # remove "р.", "Р.", "р", etc.
-    cleaned = re.sub(r"[^\d\s]", "", cleaned)   # keep only digits and whitespace
-    cleaned = re.sub(r"\s+", "", cleaned)       # remove all whitespace (including spaces between digits)
+    if pd.isna(amount_str):
+        result = None
+    elif isinstance(amount_str, (int, float)):
+        # Handle numeric types directly
+        try:
+            if float(amount_str).is_integer():
+                result = int(float(amount_str))
+            else:
+                result = None  # or int(float(amount_str)) if truncation is OK
+        except (TypeError, ValueError, OverflowError):
+            result = None
+    elif isinstance(amount_str, str):
+        # Handle string: remove rubles, spaces, etc.
+        cleaned = amount_str.replace("\u00A0", " ")
+        cleaned = re.sub(r"[рР]\.?", "", cleaned)
+        cleaned = re.sub(r"[^\d\s.]", "", cleaned)  # allow dot for decimals
+        cleaned = re.sub(r"\s+", "", cleaned)
+        try:
+            num = float(cleaned)
+            if num.is_integer():
+                result = int(num)
+            else:
+                result = None
+        except (ValueError, OverflowError):
+            result = None
+    else:
+        result = None
 
-    if not cleaned.isdigit():
-        return None
+    if DEBUG:
+        print(f"[DEBUG] clean_amount input: {repr(original_input)} → output: {result}")
 
-    try:
-        return int(cleaned)
-    except ValueError:
-        return None
+    return result
 
 
 
@@ -214,24 +230,50 @@ def process_csv_file(csv_path: Path, year: str, settlement: str, month_start: in
     return result_df
 
 
-def main():
+def get_input_csv_files() -> list[Path]:
+    """
+    Determine which CSV files to process based on environment variables:
+    - If CSV_IN_FILE is set, process only that file.
+    - Otherwise, process all CSV files in CSV_IN_DIR.
+    Returns a list of Path objects.
+    """
+    csv_in_file = os.getenv("CSV_IN_FILE")
     csv_dir = Path(CSV_IN_DIR)
-    if not csv_dir.exists():
-        print(f"❌ Directory {CSV_IN_DIR} does not exist!")
-        return
 
+    if csv_in_file:
+        # Process single file
+        csv_path = Path(csv_in_file)
+        if not csv_path.exists():
+            print(f"❌ CSV_IN_FILE points to non-existent file: {csv_path}")
+            sys.exit(1)
+        print(f"🔍 Processing single file mode: {csv_path}")
+        return [csv_path]
+    else:
+        # Process entire directory (original behavior)
+        if not csv_dir.exists():
+            print(f"❌ Directory {CSV_IN_DIR} does not exist!")
+            sys.exit(1)  # changed from return to sys.exit for consistency
+        csv_files = list(csv_dir.rglob("*.csv"))
+        if not csv_files:
+            print(f"⚠️  No CSV files found in {csv_dir}")
+            sys.exit(1)  # or return []; choose based on desired behavior
+        return csv_files
+
+
+def main():
+    csv_files = get_input_csv_files()
     all_data = []
 
-    for csv_file in csv_dir.rglob("*.csv"):
-        rel_path = csv_file.relative_to(csv_dir)
-        result = parse_filename(csv_file.name)
+    for csv_file in csv_files:
+        filename = csv_file.name
+        result = parse_filename(filename)
 
         if not result:
-            print(f"❌ Skipped: {rel_path}")
+            print(f"❌ Skipped: {filename}")
             continue
 
         year, settlement, month_start, month_end = result
-        print(f"✅ Processing: {rel_path} → {settlement}, {year}, months {month_start}-{month_end}")
+        print(f"✅ Processing: {filename} → {settlement}, {year}, months {month_start}-{month_end}")
 
         try:
             df_clean = process_csv_file(csv_file, year, settlement, month_start, month_end)
