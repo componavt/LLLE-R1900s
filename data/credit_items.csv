@@ -18,3 +18,5 @@ LoanRefinancing,"переписка выданных товаищеских об
 PersonalExpenses,"разные личные расходы заемщика и его семьи (продовольствие, отопление, уплата повинностей, свадьбы, похороны, лечение, воспитание детей, наряды, довольствия, мебель, книги и т.п.)","Личные расходы","Various personal expenses of the borrower and his family (food, heating, payment of duties, weddings, funerals, treatment, child rearing, clothing, furniture, books, etc.)",non_productive,non_aci
 CropCollateral,"ссуды под залог произведений сельского хозяйства и промыслов","Обесп.: с/х продукция","Loans secured by agricultural and industrial products",conditionally_productive,aci
 CraftCollateral,"ссуды под залог ремесленныз и кустарных произведений","Обесп.: ремесл. изделия","Loans secured by craft and cottage industry products",conditionally_productive,aci
+ConsumerSocietyLoan,"ссуда обществу потребителей","Общ-во потребителей","Loan to consumer cooperative society",,
+FoodCommitteeLoan,"ссуда продовольственному комитету","Продкомитет","Loan to food supply committee",,
