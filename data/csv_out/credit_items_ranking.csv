@@ -1,0 +1,22 @@
+credit_item,name_ru,name_en,total_amount_rub,total_loan_count,rank_by_amount,rank_by_count,total_amount_K_rub
+Livestock,Приобр-е скота,Livestock,104511,1935,1,4,104.51
+Housing,Расх. на жильё,Housing,75722,2104,2,3,75.72
+GoodsForSale,Торговля,GoodsForSale,72562,532,3,8,72.56
+PersonalExpenses,Личные расходы,PersonalExpenses,70039,2531,4,1,70.04
+Seeds,С/х семена,Seeds,56684,2192,5,2,56.68
+LaborFuel,Наём раб. силы,LaborFuel,33805,1049,6,6,33.8
+AnimalFeed,Корм для скота,AnimalFeed,32622,1152,7,5,32.62
+FarmBuildings,С/х постройки,FarmBuildings,30680,824,8,7,30.68
+CraftMaterials,Ремесл. матер.,CraftMaterials,20362,483,9,9,20.36
+LoanRefinancing,Рестр-я кредитов,LoanRefinancing,17715,164,10,14,17.71
+Migration,Врем. заработок,Migration,13832,437,11,10,13.83
+LandImprovement,Улучш-е земель,LandImprovement,11674,231,12,13,11.67
+FarmTools,Орудия труда,FarmTools,11376,369,13,11,11.38
+CraftTools,Ремесл. инстр.,CraftTools,8389,245,14,12,8.39
+Rent,Аренда имущества,Rent,3519,130,15,15,3.52
+LandPurchase,Покупка земли,LandPurchase,2183,47,16,17,2.18
+DebtRepayment,Частные долги,DebtRepayment,2110,97,17,16,2.11
+FoodCommitteeLoan,Продкомитет,FoodCommitteeLoan,2000,1,18,21,2.0
+ConsumerSocietyLoan,Общ-во потребителей,ConsumerSocietyLoan,1900,2,19,20,1.9
+CraftCollateral,Обесп.: ремесл. изделия,CraftCollateral,723,22,20,19,0.72
+CropCollateral,Обесп.: с/х продукция,CropCollateral,515,28,21,18,0.52
