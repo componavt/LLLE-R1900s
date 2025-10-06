@@ -1,0 +1,10 @@
+loan_type,aci_status,total_amount_rub,total_loan_count
+productive,aci,107068,3038
+productive,conditionally_aci,108030,2065
+productive,non_aci,79734,2792
+conditionally_productive,aci,1238,50
+conditionally_productive,conditionally_aci,105184,1684
+conditionally_productive,non_aci,2183,47
+non_productive,aci,0,0
+non_productive,conditionally_aci,0,0
+non_productive,non_aci,169486,4899

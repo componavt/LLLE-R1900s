@@ -1,22 +1,22 @@
-credit_item,name_ru,name_en,total_amount_rub,total_loan_count,rank_by_amount,rank_by_count,total_amount_K_rub
-Livestock,Приобр-е скота,Livestock,104511,1935,1,4,104.51
-Housing,Расх. на жильё,Housing,75722,2104,2,3,75.72
-GoodsForSale,Торговля,GoodsForSale,72562,532,3,8,72.56
-PersonalExpenses,Личные расходы,PersonalExpenses,70039,2531,4,1,70.04
-Seeds,С/х семена,Seeds,56684,2192,5,2,56.68
-LaborFuel,Наём раб. силы,LaborFuel,33805,1049,6,6,33.8
-AnimalFeed,Корм для скота,AnimalFeed,32622,1152,7,5,32.62
-FarmBuildings,С/х постройки,FarmBuildings,30680,824,8,7,30.68
-CraftMaterials,Ремесл. матер.,CraftMaterials,20362,483,9,9,20.36
-LoanRefinancing,Рестр-я кредитов,LoanRefinancing,17715,164,10,14,17.71
-Migration,Врем. заработок,Migration,13832,437,11,10,13.83
-LandImprovement,Улучш-е земель,LandImprovement,11674,231,12,13,11.67
-FarmTools,Орудия труда,FarmTools,11376,369,13,11,11.38
-CraftTools,Ремесл. инстр.,CraftTools,8389,245,14,12,8.39
-Rent,Аренда имущества,Rent,3519,130,15,15,3.52
-LandPurchase,Покупка земли,LandPurchase,2183,47,16,17,2.18
-DebtRepayment,Частные долги,DebtRepayment,2110,97,17,16,2.11
-FoodCommitteeLoan,Продкомитет,FoodCommitteeLoan,2000,1,18,21,2.0
-ConsumerSocietyLoan,Общ-во потребителей,ConsumerSocietyLoan,1900,2,19,20,1.9
-CraftCollateral,Обесп.: ремесл. изделия,CraftCollateral,723,22,20,19,0.72
-CropCollateral,Обесп.: с/х продукция,CropCollateral,515,28,21,18,0.52
+credit_item,name_ru,name_en,total_amount_rub,total_loan_count
+AnimalFeed,Корм для скота,"Purchase of feed for livestock (oats, hay, bran, etc.)",32622,1152
+ConsumerSocietyLoan,Общ-во потребителей,Loan to consumer cooperative society,1900,2
+CraftCollateral,Обесп.: ремесл. изделия,Loans secured by craft and cottage industry products,723,22
+CraftMaterials,Ремесл. матер.,"Purchase of materials for crafts, cottage industries and other industries (steel, iron, copper, wood, cloth, leather, wool, paints, etc.)",20362,483
+CraftTools,Ремесл. инстр.,"Purchase and repair of tools for crafts, cottage industries and other industries (blacksmith, carpentry tools, devices, etc.)",8389,245
+CropCollateral,Обесп.: с/х продукция,Loans secured by agricultural and industrial products,515,28
+DebtRepayment,Частные долги,Repayment of private debts,2110,97
+FarmBuildings,С/х постройки,"Construction, purchase, equipment and repair of agricultural and industrial facilities (mills, oil mills, forges, barns, sheds, etc.)",30680,824
+FarmTools,Орудия труда,"Purchase and repair of tools for agriculture (machines, etc.)",11376,369
+FoodCommitteeLoan,Продкомитет,Loan to food supply committee,2000,1
+GoodsForSale,Торговля,Purchase of various goods for resale,72562,532
+Housing,Расх. на жильё,"Construction, purchase or repair of housing",75722,2104
+LaborFuel,Наём раб. силы,"Hiring machines and labor (workers, working livestock, electric and other energy), purchase of fuel (firewood, coal, etc.)",33805,1049
+LandImprovement,Улучш-е земель,"Improvement of lands (purchase of fertilizers, artificial irrigation, drainage, stump removal, etc.), construction of dams, ponds, gardens, vegetable gardens",11674,231
+LandPurchase,Покупка земли,Purchase of land in full ownership,2183,47
+Livestock,Приобр-е скота,"Purchase of working livestock, all kinds of domestic animals (horses, oxen, donkeys, camels, cows, sheep, etc.), poultry, bees, etc.",104511,1935
+LoanRefinancing,Рестр-я кредитов,Refinancing of issued cooperative obligations to new terms or conditions,17715,164
+Migration,Врем. заработок,Outfitting for migratory industries,13832,437
+PersonalExpenses,Личные расходы,"Various personal expenses of the borrower and his family (food, heating, payment of duties, weddings, funerals, treatment, child rearing, clothing, furniture, books, etc.)",70039,2531
+Rent,Аренда имущества,"Rent (land and other lands, mills, industrial enterprises)",3519,130
+Seeds,С/х семена,Purchase of seeds for sowing,56684,2192
