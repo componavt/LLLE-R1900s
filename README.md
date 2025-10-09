@@ -12,6 +12,5 @@ The program can be run as follows:
     pip install -r requirements.txt
     python src/python.py
 
-[src/visualization/grouped_bar_chart.ipynb](src/visualization/grouped_bar_chart.ipynb) compares the scale and frequency of loans for artisanal and migratory economic activities in early 20th-century rural Russia  
-(сравнивает масштаб и частоту ссуд на ремесленные и сезонные заработки в сельской России начала XX века).
-![Annual loan dynamics for selected credit types](figures/grouped_bar_chart_Migration_CraftMaterials_CraftTools_ru.png)
+[src/visualization/grouped_bar_chart.ipynb](src/visualization/grouped_bar_chart.ipynb) compares the scale and frequency of loans for artisanal and migratory economic activities in early 20th-century rural Russia (сравнивает масштаб и частоту ссуд на ремесленные и сезонные заработки в сельской России начала XX века).  
+<img src="figures/grouped_bar_chart_Migration_CraftMaterials_CraftTools_ru.png" alt="Annual loan dynamics" width="600"/>
