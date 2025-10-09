@@ -15,3 +15,6 @@ The program can be run as follows:
 # 📊 Visualizations & Notebooks
 [src/visualization/grouped_bar_chart.ipynb](src/visualization/grouped_bar_chart.ipynb) compares the scale and frequency of loans for artisanal and migratory economic activities in early 20th-century rural Russia (сравнивает масштаб и частоту ссуд на ремесленные и сезонные заработки в сельской России начала XX века).  
 [<img src="figures/grouped_bar_chart_Migration_CraftMaterials_CraftTools_ru.png" alt="Annual loan dynamics" width="600"/>](src/visualization/grouped_bar_chart.ipynb)
+
+The same notebook also generates a schematic map with sparklines showing annual dynamics of loan amounts and counts for each credit society with two or more years of data (схематичная карта с мини-графиками (sparklines), показывающими динамику суммы и количества ссуд по годам для каждого товарищества с двумя и более годами данных).  
+[<img src="figures/map_sparklines_count_ru.png" alt="Map with sparklines: loan count" width="600"/>](src/visualization/grouped_bar_chart.ipynb)
