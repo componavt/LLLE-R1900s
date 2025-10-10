@@ -18,3 +18,5 @@ The program can be run as follows:
 
 The same notebook also generates a schematic map with sparklines showing annual dynamics of loan amounts and counts for each credit society with two or more years of data (схематичная карта с мини-графиками (sparklines), показывающими динамику суммы и количества ссуд по годам для каждого товарищества с двумя и более годами данных).  
 [<img src="figures/map_sparklines_count_ru.png" alt="Map with sparklines: loan count" width="600"/>](src/visualization/grouped_bar_chart.ipynb)
+
+[src/visualization/percent_stacked_bar_by_credit.ipynb](src/visualization/percent_stacked_bar_by_credit.ipynb) generates percentage stacked bar charts showing the annual structure of loans by credit type as a percentage of the total volume (строит процентные столбчатые диаграммы, отражающие годовую структуру ссуд по типам кредитов в процентах от общего объёма).
